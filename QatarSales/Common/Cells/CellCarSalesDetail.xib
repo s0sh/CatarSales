@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="identifierCarSalesDeatil" id="KGk-i7-Jjw" customClass="CellCarSalesDetail" customModule="QatarSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncc-la-oaz">
+                        <rect key="frame" x="16" y="15" width="140" height="14"/>
+                        <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEp-tK-blj">
+                        <rect key="frame" x="164" y="15" width="140" height="14"/>
+                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BEp-tK-blj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7uw-TM-mUN"/>
+                    <constraint firstItem="ncc-la-oaz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="BfM-Rf-fBr"/>
+                    <constraint firstAttribute="trailing" secondItem="BEp-tK-blj" secondAttribute="trailing" constant="16" id="OeO-aP-fPT"/>
+                    <constraint firstItem="BEp-tK-blj" firstAttribute="leading" secondItem="ncc-la-oaz" secondAttribute="trailing" constant="8" id="TW3-sc-5gX"/>
+                    <constraint firstItem="BEp-tK-blj" firstAttribute="width" secondItem="ncc-la-oaz" secondAttribute="width" id="eUR-iT-9ES"/>
+                    <constraint firstItem="ncc-la-oaz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="smy-ec-Kl2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblHeading" destination="ncc-la-oaz" id="MVu-s0-jfF"/>
+                <outlet property="lblText" destination="BEp-tK-blj" id="dAD-te-RSr"/>
+            </connections>
+            <point key="canvasLocation" x="170" y="-139"/>
+        </tableViewCell>
+    </objects>
+</document>

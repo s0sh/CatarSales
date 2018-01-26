@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Italic.ttf">
+            <string>Raleway-Italic</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="identifierDiscussion" rowHeight="90" id="KGk-i7-Jjw" customClass="CellDiscussion" customModule="QatarSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RuE-7i-jvY">
+                        <rect key="frame" x="0.0" y="0.0" width="60" height="89"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilePic" translatesAutoresizingMaskIntoConstraints="NO" id="tJh-ph-gSd" customClass="ImageView" customModule="QatarSales" customModuleProvider="target">
+                                <rect key="frame" x="10" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="fJb-ZQ-3HM"/>
+                                    <constraint firstAttribute="height" constant="40" id="rVs-XI-prj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jasim" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWV-kv-FsI">
+                                <rect key="frame" x="0.0" y="56" width="60" height="14"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tJh-ph-gSd" firstAttribute="top" secondItem="RuE-7i-jvY" secondAttribute="top" constant="8" id="2z1-gS-oda"/>
+                            <constraint firstAttribute="width" constant="60" id="7cn-Vz-5fQ"/>
+                            <constraint firstItem="tJh-ph-gSd" firstAttribute="centerX" secondItem="RuE-7i-jvY" secondAttribute="centerX" id="WEC-P7-EVc"/>
+                            <constraint firstAttribute="trailing" secondItem="SWV-kv-FsI" secondAttribute="trailing" id="YU3-TQ-z44"/>
+                            <constraint firstItem="SWV-kv-FsI" firstAttribute="leading" secondItem="RuE-7i-jvY" secondAttribute="leading" id="aG7-iw-f59"/>
+                            <constraint firstItem="SWV-kv-FsI" firstAttribute="top" secondItem="tJh-ph-gSd" secondAttribute="bottom" constant="8" id="oDJ-Ua-Jur"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AXD-Lm-ogm" customClass="TextView" customModule="QatarSales" customModuleProvider="target">
+                        <rect key="frame" x="68" y="8" width="336" height="74"/>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+                        <fontDescription key="fontDescription" name="Raleway-Italic" family="Raleway" pointSize="12"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.67450980392156867" green="0.67450980392156867" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RuE-7i-jvY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="CzN-ac-BxW"/>
+                    <constraint firstAttribute="bottom" secondItem="RuE-7i-jvY" secondAttribute="bottom" id="JgP-He-m38"/>
+                    <constraint firstItem="AXD-Lm-ogm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="K5H-BB-2dK"/>
+                    <constraint firstItem="AXD-Lm-ogm" firstAttribute="leading" secondItem="RuE-7i-jvY" secondAttribute="trailing" constant="8" id="ThG-1e-WW1"/>
+                    <constraint firstAttribute="bottom" secondItem="AXD-Lm-ogm" secondAttribute="bottom" constant="8" id="hdp-gL-4eP"/>
+                    <constraint firstItem="RuE-7i-jvY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lop-P2-FR6"/>
+                    <constraint firstAttribute="trailing" secondItem="AXD-Lm-ogm" secondAttribute="trailing" constant="10" id="ozT-4j-5uo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="2" y="-4"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="profilePic" width="60" height="60"/>
+    </resources>
+</document>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="identifierDescription" id="nX2-yI-sO0" customClass="CellCarSalesDetailDescription" customModule="QatarSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nX2-yI-sO0" id="s0G-MT-sdr">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVf-ZP-gzC">
+                        <rect key="frame" x="16" y="8" width="382" height="27"/>
+                        <string key="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</string>
+                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SVf-ZP-gzC" firstAttribute="top" secondItem="s0G-MT-sdr" secondAttribute="top" constant="8" id="FBz-w1-Nwh"/>
+                    <constraint firstAttribute="bottom" secondItem="SVf-ZP-gzC" secondAttribute="bottom" constant="8" id="Pm5-SV-gbO"/>
+                    <constraint firstItem="SVf-ZP-gzC" firstAttribute="leading" secondItem="s0G-MT-sdr" secondAttribute="leading" constant="16" id="VO6-JY-tdg"/>
+                    <constraint firstAttribute="trailing" secondItem="SVf-ZP-gzC" secondAttribute="trailing" constant="16" id="gvW-Wb-vgL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblDescription" destination="SVf-ZP-gzC" id="y8h-5B-pz5"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

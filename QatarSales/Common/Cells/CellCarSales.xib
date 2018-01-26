@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="identifierCareSales" id="Q71-5W-nhW" customClass="CellCarSales" customModule="QatarSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car2" translatesAutoresizingMaskIntoConstraints="NO" id="ERB-Rh-erM">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="84"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ai-vP-zZ6">
+                        <rect key="frame" x="0.0" y="84" width="140" height="56"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Farrari" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgg-pa-QBO">
+                                <rect key="frame" x="0.0" y="16" width="140" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ka2-0a-J0h">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="13"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="$95,5000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eK6-qW-ugm">
+                                <rect key="frame" x="0.0" y="36" width="140" height="17"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ka2-0a-J0h" firstAttribute="top" secondItem="0ai-vP-zZ6" secondAttribute="top" id="0Si-HW-Ob1"/>
+                            <constraint firstItem="Fgg-pa-QBO" firstAttribute="leading" secondItem="0ai-vP-zZ6" secondAttribute="leading" id="9IN-BX-0gU"/>
+                            <constraint firstAttribute="trailing" secondItem="eK6-qW-ugm" secondAttribute="trailing" id="J0K-MT-zPQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Fgg-pa-QBO" secondAttribute="trailing" id="Vzj-1Z-GQl"/>
+                            <constraint firstItem="ka2-0a-J0h" firstAttribute="leading" secondItem="0ai-vP-zZ6" secondAttribute="leading" id="bE8-Se-oEO"/>
+                            <constraint firstAttribute="bottom" secondItem="eK6-qW-ugm" secondAttribute="bottom" constant="3" id="bVD-z5-fbd"/>
+                            <constraint firstAttribute="trailing" secondItem="ka2-0a-J0h" secondAttribute="trailing" id="qjn-qc-OOU"/>
+                            <constraint firstItem="eK6-qW-ugm" firstAttribute="leading" secondItem="0ai-vP-zZ6" secondAttribute="leading" id="rNC-td-ogP"/>
+                            <constraint firstItem="eK6-qW-ugm" firstAttribute="top" secondItem="Fgg-pa-QBO" secondAttribute="bottom" id="rYv-vs-Y2i"/>
+                            <constraint firstItem="Fgg-pa-QBO" firstAttribute="top" secondItem="ka2-0a-J0h" secondAttribute="bottom" constant="3" id="wMh-NO-cdo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ERB-Rh-erM" secondAttribute="trailing" id="6RX-lR-eP0"/>
+                <constraint firstItem="ERB-Rh-erM" firstAttribute="top" secondItem="Q71-5W-nhW" secondAttribute="top" id="8rP-Ad-edE"/>
+                <constraint firstItem="0ai-vP-zZ6" firstAttribute="leading" secondItem="Q71-5W-nhW" secondAttribute="leading" id="MVE-KB-981"/>
+                <constraint firstItem="0ai-vP-zZ6" firstAttribute="top" secondItem="ERB-Rh-erM" secondAttribute="bottom" id="VQu-tj-Ofn"/>
+                <constraint firstAttribute="bottom" secondItem="0ai-vP-zZ6" secondAttribute="bottom" id="ZzS-In-4yF"/>
+                <constraint firstAttribute="trailing" secondItem="0ai-vP-zZ6" secondAttribute="trailing" id="hOg-fg-jfR"/>
+                <constraint firstItem="ERB-Rh-erM" firstAttribute="leading" secondItem="Q71-5W-nhW" secondAttribute="leading" id="vam-vf-zQ2"/>
+                <constraint firstItem="0ai-vP-zZ6" firstAttribute="height" secondItem="Q71-5W-nhW" secondAttribute="height" multiplier="0.4" id="w5r-M6-sKL"/>
+            </constraints>
+            <size key="customSize" width="50" height="198"/>
+            <point key="canvasLocation" x="87" y="-25"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="car2" width="108" height="110"/>
+    </resources>
+</document>

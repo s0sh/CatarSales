@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontAwesome.otf">
+            <string>FontAwesome</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+            <connections>
+                <outlet property="lblHeading" destination="brf-q6-23L" id="ZjW-EF-aLk"/>
+                <outlet property="lblIcon" destination="fg0-6e-Wkt" id="TTg-MQ-1cx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KWl-KN-hZr">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fg0-6e-Wkt">
+                    <rect key="frame" x="0.0" y="3.5" width="100" height="17"/>
+                    <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIKE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="brf-q6-23L">
+                    <rect key="frame" x="0.0" y="24.5" width="100" height="19.5"/>
+                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="za8-qV-h7u">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+                    <connections>
+                        <action selector="btnSelect:" destination="-1" eventType="touchUpInside" id="ytK-bk-BxU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="za8-qV-h7u" secondAttribute="trailing" id="3rD-xP-7Cg"/>
+                <constraint firstAttribute="bottom" secondItem="brf-q6-23L" secondAttribute="bottom" id="E3R-E1-rc5"/>
+                <constraint firstItem="brf-q6-23L" firstAttribute="top" secondItem="fg0-6e-Wkt" secondAttribute="bottom" constant="4" id="IPp-21-ydm"/>
+                <constraint firstAttribute="trailing" secondItem="fg0-6e-Wkt" secondAttribute="trailing" id="KK3-Qf-fCs"/>
+                <constraint firstAttribute="bottom" secondItem="za8-qV-h7u" secondAttribute="bottom" id="MVu-qN-98a"/>
+                <constraint firstAttribute="trailing" secondItem="brf-q6-23L" secondAttribute="trailing" id="Up8-sE-mq8"/>
+                <constraint firstItem="za8-qV-h7u" firstAttribute="leading" secondItem="KWl-KN-hZr" secondAttribute="leading" id="XjA-xj-Qhj"/>
+                <constraint firstItem="fg0-6e-Wkt" firstAttribute="leading" secondItem="KWl-KN-hZr" secondAttribute="leading" id="Z3Y-cZ-rbl"/>
+                <constraint firstItem="za8-qV-h7u" firstAttribute="top" secondItem="KWl-KN-hZr" secondAttribute="top" id="Z4S-9B-TWS"/>
+                <constraint firstItem="fg0-6e-Wkt" firstAttribute="centerY" secondItem="KWl-KN-hZr" secondAttribute="centerY" constant="-10" id="nfr-lz-hqu"/>
+                <constraint firstItem="brf-q6-23L" firstAttribute="leading" secondItem="KWl-KN-hZr" secondAttribute="leading" id="zL4-Jm-kUw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="7" y="-279"/>
+        </view>
+    </objects>
+</document>

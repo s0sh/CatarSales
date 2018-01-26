@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="identifierCellHome" id="aJf-2i-R3A" customClass="CellHome" customModule="QatarSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services &amp; Accessories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="4lz-b2-I7t">
+                        <rect key="frame" x="4" y="96" width="142" height="50"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeCarSales" translatesAutoresizingMaskIntoConstraints="NO" id="8kh-QC-Ams">
+                        <rect key="frame" x="47" y="32" width="56" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56" id="39S-0K-JCD"/>
+                            <constraint firstAttribute="width" secondItem="8kh-QC-Ams" secondAttribute="height" multiplier="1:1" id="EPZ-DQ-jkF"/>
+                            <constraint firstAttribute="height" constant="56" id="FuW-TR-q4y"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4lz-b2-I7t" secondAttribute="trailing" constant="4" id="AJk-fz-HFB"/>
+                <constraint firstItem="4lz-b2-I7t" firstAttribute="leading" secondItem="aJf-2i-R3A" secondAttribute="leading" constant="4" id="Io1-7p-fJ6"/>
+                <constraint firstItem="8kh-QC-Ams" firstAttribute="centerY" secondItem="aJf-2i-R3A" secondAttribute="centerY" constant="-15" id="KXX-rp-r3J"/>
+                <constraint firstItem="4lz-b2-I7t" firstAttribute="top" secondItem="8kh-QC-Ams" secondAttribute="bottom" constant="8" id="caa-d1-QG9"/>
+                <constraint firstAttribute="bottom" secondItem="4lz-b2-I7t" secondAttribute="bottom" constant="4" id="h5H-2i-cLP"/>
+                <constraint firstItem="8kh-QC-Ams" firstAttribute="centerX" secondItem="aJf-2i-R3A" secondAttribute="centerX" id="weP-LP-WcD"/>
+            </constraints>
+            <size key="customSize" width="110" height="143"/>
+            <connections>
+                <outlet property="imageview" destination="8kh-QC-Ams" id="aLH-pr-5kw"/>
+                <outlet property="lblHeading" destination="4lz-b2-I7t" id="XGI-dd-fAp"/>
+            </connections>
+            <point key="canvasLocation" x="7" y="-9"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="homeCarSales" width="56" height="56"/>
+    </resources>
+</document>

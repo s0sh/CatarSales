@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomViewWithFiveOptions" customModule="QatarSales" customModuleProvider="target">
+            <connections>
+                <outlet property="optionFifth" destination="S4k-fF-Qmw" id="fit-Hg-xt9"/>
+                <outlet property="optionFirst" destination="hhT-Za-A7a" id="c1e-PI-66k"/>
+                <outlet property="optionFourth" destination="q5U-2f-SVf" id="3uV-di-hU9"/>
+                <outlet property="optionSecond" destination="Kgn-d1-7Ja" id="b4a-vl-GPs"/>
+                <outlet property="optionThird" destination="bco-OS-YTT" id="VCb-N1-pju"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mLW-a4-QLc">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhT-Za-A7a" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="1" y="1" width="81.5" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="CALL"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kgn-d1-7Ja" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="83.5" y="1" width="82" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="LOCATE"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bco-OS-YTT" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="166" y="1" width="81" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="LIKE"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q5U-2f-SVf" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="248.5" y="1" width="82" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="ADD TO WISHLIST"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S4k-fF-Qmw" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="331.5" y="1" width="81.5" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="SHARE"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="q5U-2f-SVf" firstAttribute="height" secondItem="hhT-Za-A7a" secondAttribute="height" id="6F2-eo-TyY"/>
+                <constraint firstItem="Kgn-d1-7Ja" firstAttribute="height" secondItem="hhT-Za-A7a" secondAttribute="height" id="71r-yX-G14"/>
+                <constraint firstItem="bco-OS-YTT" firstAttribute="top" secondItem="mLW-a4-QLc" secondAttribute="top" constant="1" id="83a-Ie-V0x"/>
+                <constraint firstItem="S4k-fF-Qmw" firstAttribute="leading" secondItem="q5U-2f-SVf" secondAttribute="trailing" constant="1" id="8tz-I3-tBw"/>
+                <constraint firstItem="bco-OS-YTT" firstAttribute="height" secondItem="hhT-Za-A7a" secondAttribute="height" id="8uj-oQ-A5w"/>
+                <constraint firstItem="q5U-2f-SVf" firstAttribute="top" secondItem="mLW-a4-QLc" secondAttribute="top" constant="1" id="9uj-lz-HpG"/>
+                <constraint firstItem="S4k-fF-Qmw" firstAttribute="height" secondItem="hhT-Za-A7a" secondAttribute="height" id="Fb7-ZV-zKF"/>
+                <constraint firstItem="bco-OS-YTT" firstAttribute="leading" secondItem="Kgn-d1-7Ja" secondAttribute="trailing" constant="1" id="G95-GU-sLs"/>
+                <constraint firstItem="hhT-Za-A7a" firstAttribute="top" secondItem="mLW-a4-QLc" secondAttribute="top" constant="1" id="Lzw-7P-ehm"/>
+                <constraint firstAttribute="bottom" secondItem="q5U-2f-SVf" secondAttribute="bottom" id="NHT-sq-cdX"/>
+                <constraint firstItem="Kgn-d1-7Ja" firstAttribute="top" secondItem="mLW-a4-QLc" secondAttribute="top" constant="1" id="QPK-O6-adI"/>
+                <constraint firstAttribute="bottom" secondItem="S4k-fF-Qmw" secondAttribute="bottom" id="VtQ-yP-kT1"/>
+                <constraint firstAttribute="bottom" secondItem="bco-OS-YTT" secondAttribute="bottom" id="WLd-yU-z07"/>
+                <constraint firstItem="S4k-fF-Qmw" firstAttribute="top" secondItem="mLW-a4-QLc" secondAttribute="top" constant="1" id="Y2r-aZ-bgc"/>
+                <constraint firstItem="Kgn-d1-7Ja" firstAttribute="leading" secondItem="hhT-Za-A7a" secondAttribute="trailing" constant="1" id="bcG-Vc-dXC"/>
+                <constraint firstItem="S4k-fF-Qmw" firstAttribute="width" secondItem="hhT-Za-A7a" secondAttribute="width" id="bcP-9o-a7Q"/>
+                <constraint firstItem="bco-OS-YTT" firstAttribute="width" secondItem="hhT-Za-A7a" secondAttribute="width" id="bp4-1U-rci"/>
+                <constraint firstItem="q5U-2f-SVf" firstAttribute="width" secondItem="hhT-Za-A7a" secondAttribute="width" id="dZe-sx-hjp"/>
+                <constraint firstAttribute="trailing" secondItem="S4k-fF-Qmw" secondAttribute="trailing" constant="1" id="dqp-S6-qQm"/>
+                <constraint firstItem="hhT-Za-A7a" firstAttribute="leading" secondItem="mLW-a4-QLc" secondAttribute="leading" constant="1" id="ebS-vL-Lcb"/>
+                <constraint firstItem="q5U-2f-SVf" firstAttribute="leading" secondItem="bco-OS-YTT" secondAttribute="trailing" constant="1" id="fuD-Qr-Jk0"/>
+                <constraint firstAttribute="bottom" secondItem="hhT-Za-A7a" secondAttribute="bottom" id="sqh-1z-6yx"/>
+                <constraint firstAttribute="bottom" secondItem="Kgn-d1-7Ja" secondAttribute="bottom" id="umK-lW-aqt"/>
+                <constraint firstItem="Kgn-d1-7Ja" firstAttribute="width" secondItem="hhT-Za-A7a" secondAttribute="width" id="yIe-hc-gns"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25.5" y="41"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomViewWithFourOptions" customModule="QatarSales" customModuleProvider="target">
+            <connections>
+                <outlet property="optionFirst" destination="9Rw-Ge-unI" id="dc4-mh-uek"/>
+                <outlet property="optionFourth" destination="ica-zy-S0N" id="NvE-Qo-FMZ"/>
+                <outlet property="optionSecond" destination="m6g-QZ-Xdy" id="208-vt-IC0"/>
+                <outlet property="optionThird" destination="pzG-62-VsJ" id="wWf-RD-v15"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ERh-oH-4xD">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Rw-Ge-unI" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="1" y="1" width="103.5" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="CALL"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m6g-QZ-Xdy" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="100" y="1" width="103" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="LIKE"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzG-62-VsJ" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="204.5" y="1" width="104" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="ADD TO WISHLIST"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ica-zy-S0N" customClass="BottomViewWithSingleOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="309.5" y="1" width="103.5" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="SHARE"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="m6g-QZ-Xdy" firstAttribute="width" secondItem="9Rw-Ge-unI" secondAttribute="width" id="03T-09-of4"/>
+                <constraint firstAttribute="bottom" secondItem="9Rw-Ge-unI" secondAttribute="bottom" id="5PW-e6-NEK"/>
+                <constraint firstItem="9Rw-Ge-unI" firstAttribute="top" secondItem="ERh-oH-4xD" secondAttribute="top" constant="1" id="6wM-ja-39C"/>
+                <constraint firstAttribute="bottom" secondItem="pzG-62-VsJ" secondAttribute="bottom" id="7Fx-s2-Nmq"/>
+                <constraint firstAttribute="bottom" secondItem="m6g-QZ-Xdy" secondAttribute="bottom" id="BlT-iT-9lm"/>
+                <constraint firstItem="m6g-QZ-Xdy" firstAttribute="top" secondItem="ERh-oH-4xD" secondAttribute="top" constant="1" id="HqS-LB-qBS"/>
+                <constraint firstItem="pzG-62-VsJ" firstAttribute="top" secondItem="ERh-oH-4xD" secondAttribute="top" constant="1" id="MEQ-8f-Lkg"/>
+                <constraint firstItem="m6g-QZ-Xdy" firstAttribute="height" secondItem="9Rw-Ge-unI" secondAttribute="height" id="No0-hX-N7a"/>
+                <constraint firstItem="ica-zy-S0N" firstAttribute="top" secondItem="ERh-oH-4xD" secondAttribute="top" constant="1" id="Pcz-NP-lIQ"/>
+                <constraint firstItem="ica-zy-S0N" firstAttribute="leading" secondItem="pzG-62-VsJ" secondAttribute="trailing" constant="1" id="XTG-RP-01v"/>
+                <constraint firstItem="pzG-62-VsJ" firstAttribute="leading" secondItem="m6g-QZ-Xdy" secondAttribute="trailing" constant="1" id="YLJ-6s-RHu"/>
+                <constraint firstItem="9Rw-Ge-unI" firstAttribute="leading" secondItem="ERh-oH-4xD" secondAttribute="leading" constant="1" id="aQi-PM-2aZ"/>
+                <constraint firstItem="ica-zy-S0N" firstAttribute="height" secondItem="9Rw-Ge-unI" secondAttribute="height" id="b7I-mF-1IW"/>
+                <constraint firstAttribute="bottom" secondItem="ica-zy-S0N" secondAttribute="bottom" id="dh4-Zg-jJ6"/>
+                <constraint firstItem="pzG-62-VsJ" firstAttribute="height" secondItem="9Rw-Ge-unI" secondAttribute="height" id="f5C-ZL-gIF"/>
+                <constraint firstAttribute="trailing" secondItem="ica-zy-S0N" secondAttribute="trailing" constant="1" id="fnV-Uy-Lxu"/>
+                <constraint firstItem="pzG-62-VsJ" firstAttribute="width" secondItem="9Rw-Ge-unI" secondAttribute="width" id="gfr-AU-UJj"/>
+                <constraint firstItem="ica-zy-S0N" firstAttribute="width" secondItem="9Rw-Ge-unI" secondAttribute="width" id="opm-h7-LdY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25.5" y="41"/>
+        </view>
+    </objects>
+</document>

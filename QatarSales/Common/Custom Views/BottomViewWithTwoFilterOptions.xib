@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomViewWithTwoFilterOptions" customModule="QatarSales" customModuleProvider="target">
+            <connections>
+                <outlet property="optionFirst" destination="z0Q-Sc-0JI" id="wTL-pi-PEx"/>
+                <outlet property="optionSecond" destination="JXF-CA-Ux0" id="HZW-Pl-BvF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="j7q-dE-194">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z0Q-Sc-0JI" customClass="BottomViewWithSingleFilterOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="1" y="1" width="205.5" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="FILTER"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JXF-CA-Ux0" customClass="BottomViewWithSingleFilterOption" customModule="QatarSales" customModuleProvider="target">
+                    <rect key="frame" x="207.5" y="1" width="205.5" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="heading" value="SORT BY"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="JXF-CA-Ux0" firstAttribute="top" secondItem="j7q-dE-194" secondAttribute="top" constant="1" id="1vv-SY-hP7"/>
+                <constraint firstItem="z0Q-Sc-0JI" firstAttribute="leading" secondItem="j7q-dE-194" secondAttribute="leading" constant="1" id="8U9-s8-Zlu"/>
+                <constraint firstItem="JXF-CA-Ux0" firstAttribute="leading" secondItem="z0Q-Sc-0JI" secondAttribute="trailing" constant="1" id="AOV-hb-Do3"/>
+                <constraint firstAttribute="bottom" secondItem="z0Q-Sc-0JI" secondAttribute="bottom" id="JOQ-ZH-785"/>
+                <constraint firstItem="JXF-CA-Ux0" firstAttribute="height" secondItem="z0Q-Sc-0JI" secondAttribute="height" id="OXX-tZ-y1q"/>
+                <constraint firstItem="z0Q-Sc-0JI" firstAttribute="top" secondItem="j7q-dE-194" secondAttribute="top" constant="1" id="Wou-BR-KO5"/>
+                <constraint firstItem="JXF-CA-Ux0" firstAttribute="width" secondItem="z0Q-Sc-0JI" secondAttribute="width" id="ZRr-CN-OfM"/>
+                <constraint firstAttribute="trailing" secondItem="JXF-CA-Ux0" secondAttribute="trailing" constant="1" id="oRE-CK-hGT"/>
+                <constraint firstAttribute="bottom" secondItem="JXF-CA-Ux0" secondAttribute="bottom" id="pRl-zg-CjZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25" y="41"/>
+        </view>
+    </objects>
+</document>

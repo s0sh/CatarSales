@@ -1,0 +1,1390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61BBF5A1E7C5295003826E4 /* SparePartsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF591E7C5295003826E4 /* SparePartsMenuViewController.swift */; };
+		B61BBF601E7C5CF6003826E4 /* CellSparePartsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF5E1E7C5CF6003826E4 /* CellSparePartsDetail.swift */; };
+		B61BBF611E7C5CF6003826E4 /* CellSparePartsDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61BBF5F1E7C5CF6003826E4 /* CellSparePartsDetail.xib */; };
+		B61BBF631E7C653F003826E4 /* SparePartsShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF621E7C653F003826E4 /* SparePartsShopViewController.swift */; };
+		B61BBF651E7C6685003826E4 /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF641E7C6685003826E4 /* ReviewsViewController.swift */; };
+		B61BBF681E7C6E04003826E4 /* CellReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF661E7C6E04003826E4 /* CellReviews.swift */; };
+		B61BBF691E7C6E04003826E4 /* CellReviews.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61BBF671E7C6E04003826E4 /* CellReviews.xib */; };
+		B61BBF6C1E7C7315003826E4 /* GarageCarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF6B1E7C7315003826E4 /* GarageCarsViewController.swift */; };
+		B61BBF6E1E7C75D1003826E4 /* BreakDownServicesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF6D1E7C75D1003826E4 /* BreakDownServicesListViewController.swift */; };
+		B61BBF701E7C8643003826E4 /* CarAccessoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF6F1E7C8643003826E4 /* CarAccessoriesViewController.swift */; };
+		B61BBF731E7D246F003826E4 /* CellDiscussionChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BBF711E7D246F003826E4 /* CellDiscussionChat.swift */; };
+		B61BBF741E7D246F003826E4 /* CellDiscussionChat.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61BBF721E7D246F003826E4 /* CellDiscussionChat.xib */; };
+		B628757C1E7077A000F450D6 /* CellShowRoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628757A1E7077A000F450D6 /* CellShowRoomDetail.swift */; };
+		B628757D1E7077A000F450D6 /* CellShowRoomDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = B628757B1E7077A000F450D6 /* CellShowRoomDetail.xib */; };
+		B628757F1E707F6E00F450D6 /* ShowRoomCarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628757E1E707F6E00F450D6 /* ShowRoomCarsViewController.swift */; };
+		B62875821E708E7200F450D6 /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62875811E708E7200F450D6 /* GarageViewController.swift */; };
+		B63699F31E899C5600BFCF2A /* CarAccessoriesShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63699F21E899C5600BFCF2A /* CarAccessoriesShopViewController.swift */; };
+		B63699F51E899D5C00BFCF2A /* CarAccessoriesShopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63699F41E899D5C00BFCF2A /* CarAccessoriesShopDetailViewController.swift */; };
+		B63699FA1E8ADA7200BFCF2A /* ProtectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63699F91E8ADA7200BFCF2A /* ProtectionViewController.swift */; };
+		B63699FD1E8ADD8B00BFCF2A /* UpholstryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63699FC1E8ADD8B00BFCF2A /* UpholstryViewController.swift */; };
+		B6369A011E8AE1F800BFCF2A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6369A001E8AE1F800BFCF2A /* SWRevealViewController.m */; };
+		B6369A041E8AE26400BFCF2A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6369A031E8AE26400BFCF2A /* MenuViewController.swift */; };
+		B6369A061E8AE28D00BFCF2A /* MenuStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6369A051E8AE28D00BFCF2A /* MenuStoryboard.storyboard */; };
+		B6369A081E8AF4DA00BFCF2A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6369A071E8AF4DA00BFCF2A /* MapViewController.swift */; };
+		B64B66B21E80556500D15203 /* SparePartsShopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64B66B11E80556500D15203 /* SparePartsShopDetailViewController.swift */; };
+		B64B66B41E80571900D15203 /* CarAccessoriesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64B66B31E80571900D15203 /* CarAccessoriesMenuViewController.swift */; };
+		B6519D8D1E6A05EE0035003F /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6519D8C1E6A05EE0035003F /* HomeDataModel.swift */; };
+		B6519D8F1E6A0AB60035003F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6519D8E1E6A0AB60035003F /* UIColor.swift */; };
+		B6519D911E6A0EE30035003F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6519D901E6A0EE30035003F /* UIImage.swift */; };
+		B658C6B91E79C70700C22DCA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658C6B81E79C70700C22DCA /* TextView.swift */; };
+		B65B998D1E61E5CF0042DFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B998C1E61E5CF0042DFAA /* AppDelegate.swift */; };
+		B65B99921E61E5CF0042DFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B99901E61E5CF0042DFAA /* Main.storyboard */; };
+		B65B99941E61E5CF0042DFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65B99931E61E5CF0042DFAA /* Assets.xcassets */; };
+		B65B99971E61E5CF0042DFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B99951E61E5CF0042DFAA /* LaunchScreen.storyboard */; };
+		B65B99AE1E61F2600042DFAA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99AD1E61F2600042DFAA /* ParentViewController.swift */; };
+		B65B99B01E61F2990042DFAA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99AF1E61F2990042DFAA /* UIViewController.swift */; };
+		B65B99B21E61F34F0042DFAA /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99B11E61F34F0042DFAA /* ServiceModel.swift */; };
+		B65B99B41E61F36C0042DFAA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99B31E61F36C0042DFAA /* Utilities.swift */; };
+		B65B99B61E61F37D0042DFAA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99B51E61F37D0042DFAA /* Constants.swift */; };
+		B65B99BF1E62D3C60042DFAA /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B99BC1E62D3C60042DFAA /* LanguageManager.m */; };
+		B65B99C01E62D3C60042DFAA /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B99BE1E62D3C60042DFAA /* NSBundle+Language.m */; };
+		B65B99C41E6488CA0042DFAA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99C31E6488CA0042DFAA /* CustomButton.swift */; };
+		B65B99CE1E64A8220042DFAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99CD1E64A8220042DFAA /* HomeViewController.swift */; };
+		B65B99D01E64A84B0042DFAA /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99CF1E64A84B0042DFAA /* WatchListViewController.swift */; };
+		B65B99D21E64A8550042DFAA /* MyAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99D11E64A8550042DFAA /* MyAddViewController.swift */; };
+		B65B99D41E64B0410042DFAA /* CellHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99D31E64B0410042DFAA /* CellHome.swift */; };
+		B65B99D71E64B05D0042DFAA /* CellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65B99D61E64B05D0042DFAA /* CellHome.xib */; };
+		B65B99D91E65DBE90042DFAA /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99D81E65DBE90042DFAA /* SelectLanguageViewController.swift */; };
+		B65B99DB1E65DCD20042DFAA /* HomeTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B99DA1E65DCD20042DFAA /* HomeTabbarController.swift */; };
+		B6AB56D01E81A93A009DEA89 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB56CF1E81A93A009DEA89 /* RegistrationViewController.swift */; };
+		B6AB56D21E81AC2A009DEA89 /* AddCarSalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB56D11E81AC2A009DEA89 /* AddCarSalesViewController.swift */; };
+		B6AB56D41E81AC90009DEA89 /* AddCarAccessoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB56D31E81AC90009DEA89 /* AddCarAccessoriesViewController.swift */; };
+		B6AB56D61E81C5C7009DEA89 /* AddDiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB56D51E81C5C7009DEA89 /* AddDiscussionViewController.swift */; };
+		B6AD78B41E7483810063C690 /* BreakDownServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD78B31E7483810063C690 /* BreakDownServicesViewController.swift */; };
+		B6AD78B61E7484710063C690 /* BottomViewWithFourOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD78B51E7484710063C690 /* BottomViewWithFourOptions.swift */; };
+		B6AD78B81E74847F0063C690 /* BottomViewWithFourOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD78B71E74847F0063C690 /* BottomViewWithFourOptions.xib */; };
+		B6AD78BB1E7522770063C690 /* DiscussionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD78BA1E7522770063C690 /* DiscussionViewController.swift */; };
+		B6AD78BF1E7523D70063C690 /* CellDiscussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD78BD1E7523D70063C690 /* CellDiscussion.swift */; };
+		B6AD78C01E7523D70063C690 /* CellDiscussion.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD78BE1E7523D70063C690 /* CellDiscussion.xib */; };
+		B6AD78C21E75DF0E0063C690 /* CarWashDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD78C11E75DF0E0063C690 /* CarWashDetailViewController.swift */; };
+		B6AD78C41E75E34A0063C690 /* CarWashListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD78C31E75E34A0063C690 /* CarWashListViewController.swift */; };
+		B6B255C91E6897D600A7C674 /* ShowRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B255C81E6897D600A7C674 /* ShowRoomViewController.swift */; };
+		B6B255CB1E6898AC00A7C674 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B255CA1E6898AC00A7C674 /* CustomView.swift */; };
+		B6B255CF1E689A9E00A7C674 /* CellShowRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B255CD1E689A9E00A7C674 /* CellShowRoom.swift */; };
+		B6B255D01E689A9E00A7C674 /* CellShowRoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B255CE1E689A9E00A7C674 /* CellShowRoom.xib */; };
+		B6B255D31E68A08100A7C674 /* CarRentalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B255D21E68A08100A7C674 /* CarRentalsViewController.swift */; };
+		B6B255D51E68A6A800A7C674 /* TaxiServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B255D41E68A6A800A7C674 /* TaxiServicesViewController.swift */; };
+		B6B57C7F1E83211E004A96F7 /* SecondaryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B57C7E1E83211E004A96F7 /* SecondaryStoryboard.storyboard */; };
+		B6B57C821E83216A004A96F7 /* SortingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C811E83216A004A96F7 /* SortingViewController.swift */; };
+		B6B57C861E832237004A96F7 /* CellSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C841E832237004A96F7 /* CellSorting.swift */; };
+		B6B57C871E832237004A96F7 /* CellSorting.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B57C851E832237004A96F7 /* CellSorting.xib */; };
+		B6B57C8A1E839AD5004A96F7 /* FilterOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C891E839AD5004A96F7 /* FilterOneViewController.swift */; };
+		B6B57C8C1E83AD5C004A96F7 /* MultiSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C8B1E83AD5C004A96F7 /* MultiSelectViewController.swift */; };
+		B6B57C8E1E83C5E5004A96F7 /* FilterTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C8D1E83C5E5004A96F7 /* FilterTwoViewController.swift */; };
+		B6B57C901E83CE31004A96F7 /* FilterThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C8F1E83CE31004A96F7 /* FilterThreeViewController.swift */; };
+		B6B57C921E83D5B7004A96F7 /* FilterFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C911E83D5B7004A96F7 /* FilterFourViewController.swift */; };
+		B6B57C941E83D89D004A96F7 /* FilterFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C931E83D89D004A96F7 /* FilterFiveViewController.swift */; };
+		B6B57C961E83DCDF004A96F7 /* FilterSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B57C951E83DCDF004A96F7 /* FilterSixViewController.swift */; };
+		B6BBD3BA1E672D530098EE8D /* CarSalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBD3B91E672D530098EE8D /* CarSalesViewController.swift */; };
+		B6BBD3BD1E673C670098EE8D /* CellCarSales.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBD3BC1E673C670098EE8D /* CellCarSales.swift */; };
+		B6BBD3BF1E673C730098EE8D /* CellCarSales.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BBD3BE1E673C730098EE8D /* CellCarSales.xib */; };
+		B6BBD3C11E67553F0098EE8D /* CarSalesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBD3C01E67553F0098EE8D /* CarSalesDetailViewController.swift */; };
+		B6BBD3C51E6756210098EE8D /* CellCarSalesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BBD3C31E6756210098EE8D /* CellCarSalesDetail.swift */; };
+		B6BBD3C61E6756210098EE8D /* CellCarSalesDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BBD3C41E6756210098EE8D /* CellCarSalesDetail.xib */; };
+		B6C054921E6F489F001BDBAF /* AddNumberPlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C054911E6F489F001BDBAF /* AddNumberPlateViewController.swift */; };
+		B6C054941E6F4FDD001BDBAF /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C054931E6F4FDD001BDBAF /* TextField.swift */; };
+		B6C054961E6F535E001BDBAF /* NumberPlateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C054951E6F535E001BDBAF /* NumberPlateDetailViewController.swift */; };
+		B6CEE8611E6BD3F20083FE74 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8601E6BD3F20083FE74 /* TagView.swift */; };
+		B6CEE8631E6BD4030083FE74 /* TagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8621E6BD4030083FE74 /* TagView.xib */; };
+		B6CEE8661E6BD51C0083FE74 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8651E6BD51C0083FE74 /* FontAwesome.otf */; };
+		B6CEE8681E6BDFCD0083FE74 /* BottomViewWithFiveOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8671E6BDFCD0083FE74 /* BottomViewWithFiveOptions.swift */; };
+		B6CEE86A1E6BDFD50083FE74 /* BottomViewWithFiveOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8691E6BDFD50083FE74 /* BottomViewWithFiveOptions.xib */; };
+		B6CEE86C1E6BE0830083FE74 /* BottomViewWithSingleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE86B1E6BE0830083FE74 /* BottomViewWithSingleOption.swift */; };
+		B6CEE86E1E6BE08A0083FE74 /* BottomViewWithSingleOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE86D1E6BE08A0083FE74 /* BottomViewWithSingleOption.xib */; };
+		B6CEE8701E6BE8150083FE74 /* BottomViewWithThreeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE86F1E6BE8150083FE74 /* BottomViewWithThreeOptions.swift */; };
+		B6CEE8721E6BE81D0083FE74 /* BottomViewWithThreeOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8711E6BE81D0083FE74 /* BottomViewWithThreeOptions.xib */; };
+		B6CEE8741E6BE8A50083FE74 /* BottomViewWithSingleFilterOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8731E6BE8A50083FE74 /* BottomViewWithSingleFilterOption.swift */; };
+		B6CEE8761E6BE8AD0083FE74 /* BottomViewWithSingleFilterOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8751E6BE8AD0083FE74 /* BottomViewWithSingleFilterOption.xib */; };
+		B6CEE87C1E6C280B0083FE74 /* BottomViewWithThreeFilterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE87B1E6C280B0083FE74 /* BottomViewWithThreeFilterOptions.swift */; };
+		B6CEE87E1E6C28150083FE74 /* BottomViewWithThreeFilterOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE87D1E6C28150083FE74 /* BottomViewWithThreeFilterOptions.xib */; };
+		B6CEE8821E6C2D8D0083FE74 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8811E6C2D8D0083FE74 /* UILabel.swift */; };
+		B6CEE8841E6C31430083FE74 /* ShowRoomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8831E6C31430083FE74 /* ShowRoomDetailViewController.swift */; };
+		B6CEE8971E6C357B0083FE74 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8851E6C357B0083FE74 /* Raleway-Black.ttf */; };
+		B6CEE8981E6C357B0083FE74 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8861E6C357B0083FE74 /* Raleway-BlackItalic.ttf */; };
+		B6CEE8991E6C357B0083FE74 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8871E6C357B0083FE74 /* Raleway-Bold.ttf */; };
+		B6CEE89A1E6C357B0083FE74 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8881E6C357B0083FE74 /* Raleway-BoldItalic.ttf */; };
+		B6CEE89B1E6C357B0083FE74 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8891E6C357B0083FE74 /* Raleway-ExtraBold.ttf */; };
+		B6CEE89C1E6C357B0083FE74 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE88A1E6C357B0083FE74 /* Raleway-ExtraBoldItalic.ttf */; };
+		B6CEE89D1E6C357B0083FE74 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE88B1E6C357B0083FE74 /* Raleway-ExtraLight.ttf */; };
+		B6CEE89E1E6C357B0083FE74 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE88C1E6C357B0083FE74 /* Raleway-ExtraLightItalic.ttf */; };
+		B6CEE89F1E6C357B0083FE74 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE88D1E6C357B0083FE74 /* Raleway-Italic.ttf */; };
+		B6CEE8A01E6C357B0083FE74 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE88E1E6C357B0083FE74 /* Raleway-Light.ttf */; };
+		B6CEE8A11E6C357B0083FE74 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE88F1E6C357B0083FE74 /* Raleway-LightItalic.ttf */; };
+		B6CEE8A21E6C357B0083FE74 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8901E6C357B0083FE74 /* Raleway-Medium.ttf */; };
+		B6CEE8A31E6C357B0083FE74 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8911E6C357B0083FE74 /* Raleway-MediumItalic.ttf */; };
+		B6CEE8A41E6C357B0083FE74 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8921E6C357B0083FE74 /* Raleway-Regular.ttf */; };
+		B6CEE8A51E6C357B0083FE74 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8931E6C357B0083FE74 /* Raleway-SemiBold.ttf */; };
+		B6CEE8A61E6C357B0083FE74 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8941E6C357B0083FE74 /* Raleway-SemiBoldItalic.ttf */; };
+		B6CEE8A71E6C357B0083FE74 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8951E6C357B0083FE74 /* Raleway-Thin.ttf */; };
+		B6CEE8A81E6C357B0083FE74 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8961E6C357B0083FE74 /* Raleway-ThinItalic.ttf */; };
+		B6CEE8AA1E6C38AC0083FE74 /* BottomViewWithTwoOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8A91E6C38AC0083FE74 /* BottomViewWithTwoOptions.swift */; };
+		B6CEE8AC1E6C38B40083FE74 /* BottomViewWithTwoOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8AB1E6C38B40083FE74 /* BottomViewWithTwoOptions.xib */; };
+		B6CEE8AE1E6C3A370083FE74 /* CarRentalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8AD1E6C3A370083FE74 /* CarRentalDetailViewController.swift */; };
+		B6CEE8B01E6C3C320083FE74 /* BottomViewWithTwoFilterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8AF1E6C3C320083FE74 /* BottomViewWithTwoFilterOptions.swift */; };
+		B6CEE8B21E6C3C390083FE74 /* BottomViewWithTwoFilterOptions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8B11E6C3C390083FE74 /* BottomViewWithTwoFilterOptions.xib */; };
+		B6CEE8B41E6C3D300083FE74 /* CarRentalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8B31E6C3D300083FE74 /* CarRentalListViewController.swift */; };
+		B6CEE8B81E6C42C50083FE74 /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8B71E6C42C50083FE74 /* MaintenanceViewController.swift */; };
+		B6CEE8BB1E6C509F0083FE74 /* CellMaintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8B91E6C509F0083FE74 /* CellMaintenance.swift */; };
+		B6CEE8BC1E6C509F0083FE74 /* CellMaintenance.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8BA1E6C509F0083FE74 /* CellMaintenance.xib */; };
+		B6CEE8C01E6C55B50083FE74 /* AccessoriesAndServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8BF1E6C55B50083FE74 /* AccessoriesAndServicesViewController.swift */; };
+		B6CEE8C31E6C572D0083FE74 /* NumberPlatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8C21E6C572D0083FE74 /* NumberPlatesViewController.swift */; };
+		B6CEE8C61E6C579B0083FE74 /* CellNumberPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8C41E6C579B0083FE74 /* CellNumberPlate.swift */; };
+		B6CEE8C71E6C579B0083FE74 /* CellNumberPlate.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8C51E6C579B0083FE74 /* CellNumberPlate.xib */; };
+		B6CEE8CB1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CEE8C91E6C9EDD0083FE74 /* CellCarSalesDetailDescription.swift */; };
+		B6CEE8CC1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CEE8CA1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.xib */; };
+		B6FEF99E1E74101800100EFA /* BottomViewSelectionStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEF99D1E74101800100EFA /* BottomViewSelectionStates.swift */; };
+		B6FEF9A11E741D1600100EFA /* CarWashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEF9A01E741D1600100EFA /* CarWashViewController.swift */; };
+		B6FEF9A51E74200200100EFA /* CellCarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEF9A31E74200200100EFA /* CellCarWash.swift */; };
+		B6FEF9A61E74200200100EFA /* CellCarWash.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF9A41E74200200100EFA /* CellCarWash.xib */; };
+		B6FEF9A91E742AB400100EFA /* CellCarWashDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEF9A71E742AB300100EFA /* CellCarWashDescription.swift */; };
+		B6FEF9AA1E742AB400100EFA /* CellCarWashDescription.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF9A81E742AB400100EFA /* CellCarWashDescription.xib */; };
+		B6FEF9AD1E742F6A00100EFA /* CellChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEF9AB1E742F6A00100EFA /* CellChatBubble.swift */; };
+		B6FEF9AE1E742F6A00100EFA /* CellChatBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FEF9AC1E742F6A00100EFA /* CellChatBubble.xib */; };
+		B6FEF9B21E74393A00100EFA /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FEF9B11E74393A00100EFA /* ImageView.swift */; };
+		DF715177AD86C1C5B7DE167F /* Pods_QatarSales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C74A5E62663F414F64672FE /* Pods_QatarSales.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C74A5E62663F414F64672FE /* Pods_QatarSales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QatarSales.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61BBF591E7C5295003826E4 /* SparePartsMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparePartsMenuViewController.swift; sourceTree = "<group>"; };
+		B61BBF5E1E7C5CF6003826E4 /* CellSparePartsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSparePartsDetail.swift; sourceTree = "<group>"; };
+		B61BBF5F1E7C5CF6003826E4 /* CellSparePartsDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellSparePartsDetail.xib; sourceTree = "<group>"; };
+		B61BBF621E7C653F003826E4 /* SparePartsShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparePartsShopViewController.swift; sourceTree = "<group>"; };
+		B61BBF641E7C6685003826E4 /* ReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		B61BBF661E7C6E04003826E4 /* CellReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellReviews.swift; sourceTree = "<group>"; };
+		B61BBF671E7C6E04003826E4 /* CellReviews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellReviews.xib; sourceTree = "<group>"; };
+		B61BBF6B1E7C7315003826E4 /* GarageCarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageCarsViewController.swift; sourceTree = "<group>"; };
+		B61BBF6D1E7C75D1003826E4 /* BreakDownServicesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakDownServicesListViewController.swift; sourceTree = "<group>"; };
+		B61BBF6F1E7C8643003826E4 /* CarAccessoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAccessoriesViewController.swift; sourceTree = "<group>"; };
+		B61BBF711E7D246F003826E4 /* CellDiscussionChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDiscussionChat.swift; sourceTree = "<group>"; };
+		B61BBF721E7D246F003826E4 /* CellDiscussionChat.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDiscussionChat.xib; sourceTree = "<group>"; };
+		B628757A1E7077A000F450D6 /* CellShowRoomDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellShowRoomDetail.swift; sourceTree = "<group>"; };
+		B628757B1E7077A000F450D6 /* CellShowRoomDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellShowRoomDetail.xib; sourceTree = "<group>"; };
+		B628757E1E707F6E00F450D6 /* ShowRoomCarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowRoomCarsViewController.swift; sourceTree = "<group>"; };
+		B62875811E708E7200F450D6 /* GarageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
+		B63699F21E899C5600BFCF2A /* CarAccessoriesShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAccessoriesShopViewController.swift; sourceTree = "<group>"; };
+		B63699F41E899D5C00BFCF2A /* CarAccessoriesShopDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAccessoriesShopDetailViewController.swift; sourceTree = "<group>"; };
+		B63699F91E8ADA7200BFCF2A /* ProtectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionViewController.swift; sourceTree = "<group>"; };
+		B63699FC1E8ADD8B00BFCF2A /* UpholstryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpholstryViewController.swift; sourceTree = "<group>"; };
+		B63699FF1E8AE1F800BFCF2A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B6369A001E8AE1F800BFCF2A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B6369A031E8AE26400BFCF2A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B6369A051E8AE28D00BFCF2A /* MenuStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuStoryboard.storyboard; sourceTree = "<group>"; };
+		B6369A071E8AF4DA00BFCF2A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "QatarSales/View Controllers/MapViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B64B66B11E80556500D15203 /* SparePartsShopDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparePartsShopDetailViewController.swift; sourceTree = "<group>"; };
+		B64B66B31E80571900D15203 /* CarAccessoriesMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAccessoriesMenuViewController.swift; sourceTree = "<group>"; };
+		B6519D8C1E6A05EE0035003F /* HomeDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
+		B6519D8E1E6A0AB60035003F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B6519D901E6A0EE30035003F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		B658C6B81E79C70700C22DCA /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		B65B99891E61E5CF0042DFAA /* QatarSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QatarSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65B998C1E61E5CF0042DFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		B65B99911E61E5CF0042DFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65B99931E61E5CF0042DFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QatarSales/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B65B99961E61E5CF0042DFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65B99981E61E5CF0042DFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		B65B99AD1E61F2600042DFAA /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		B65B99AF1E61F2990042DFAA /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B65B99B11E61F34F0042DFAA /* ServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		B65B99B31E61F36C0042DFAA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B65B99B51E61F37D0042DFAA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B65B99BA1E62D3C60042DFAA /* QatarSales-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QatarSales-Bridging-Header.h"; path = "../../Frameworks&Libraries/Language Manager/QatarSales-Bridging-Header.h"; sourceTree = "<group>"; };
+		B65B99BB1E62D3C60042DFAA /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		B65B99BC1E62D3C60042DFAA /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		B65B99BD1E62D3C60042DFAA /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		B65B99BE1E62D3C60042DFAA /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		B65B99C31E6488CA0042DFAA /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B65B99CD1E64A8220042DFAA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B65B99CF1E64A84B0042DFAA /* WatchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		B65B99D11E64A8550042DFAA /* MyAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAddViewController.swift; sourceTree = "<group>"; };
+		B65B99D31E64B0410042DFAA /* CellHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellHome.swift; sourceTree = "<group>"; };
+		B65B99D61E64B05D0042DFAA /* CellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHome.xib; sourceTree = "<group>"; };
+		B65B99D81E65DBE90042DFAA /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		B65B99DA1E65DCD20042DFAA /* HomeTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabbarController.swift; sourceTree = "<group>"; };
+		B6AB56CF1E81A93A009DEA89 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B6AB56D11E81AC2A009DEA89 /* AddCarSalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarSalesViewController.swift; sourceTree = "<group>"; };
+		B6AB56D31E81AC90009DEA89 /* AddCarAccessoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarAccessoriesViewController.swift; sourceTree = "<group>"; };
+		B6AB56D51E81C5C7009DEA89 /* AddDiscussionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDiscussionViewController.swift; sourceTree = "<group>"; };
+		B6AD78B31E7483810063C690 /* BreakDownServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakDownServicesViewController.swift; sourceTree = "<group>"; };
+		B6AD78B51E7484710063C690 /* BottomViewWithFourOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithFourOptions.swift; sourceTree = "<group>"; };
+		B6AD78B71E74847F0063C690 /* BottomViewWithFourOptions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithFourOptions.xib; sourceTree = "<group>"; };
+		B6AD78BA1E7522770063C690 /* DiscussionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionViewController.swift; sourceTree = "<group>"; };
+		B6AD78BD1E7523D70063C690 /* CellDiscussion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDiscussion.swift; sourceTree = "<group>"; };
+		B6AD78BE1E7523D70063C690 /* CellDiscussion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDiscussion.xib; sourceTree = "<group>"; };
+		B6AD78C11E75DF0E0063C690 /* CarWashDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarWashDetailViewController.swift; sourceTree = "<group>"; };
+		B6AD78C31E75E34A0063C690 /* CarWashListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarWashListViewController.swift; sourceTree = "<group>"; };
+		B6B255C81E6897D600A7C674 /* ShowRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowRoomViewController.swift; sourceTree = "<group>"; };
+		B6B255CA1E6898AC00A7C674 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		B6B255CD1E689A9E00A7C674 /* CellShowRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellShowRoom.swift; sourceTree = "<group>"; };
+		B6B255CE1E689A9E00A7C674 /* CellShowRoom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellShowRoom.xib; sourceTree = "<group>"; };
+		B6B255D21E68A08100A7C674 /* CarRentalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarRentalsViewController.swift; sourceTree = "<group>"; };
+		B6B255D41E68A6A800A7C674 /* TaxiServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiServicesViewController.swift; sourceTree = "<group>"; };
+		B6B57C7E1E83211E004A96F7 /* SecondaryStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondaryStoryboard.storyboard; sourceTree = "<group>"; };
+		B6B57C811E83216A004A96F7 /* SortingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortingViewController.swift; sourceTree = "<group>"; };
+		B6B57C841E832237004A96F7 /* CellSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellSorting.swift; sourceTree = "<group>"; };
+		B6B57C851E832237004A96F7 /* CellSorting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellSorting.xib; sourceTree = "<group>"; };
+		B6B57C891E839AD5004A96F7 /* FilterOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOneViewController.swift; sourceTree = "<group>"; };
+		B6B57C8B1E83AD5C004A96F7 /* MultiSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectViewController.swift; sourceTree = "<group>"; };
+		B6B57C8D1E83C5E5004A96F7 /* FilterTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTwoViewController.swift; sourceTree = "<group>"; };
+		B6B57C8F1E83CE31004A96F7 /* FilterThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterThreeViewController.swift; sourceTree = "<group>"; };
+		B6B57C911E83D5B7004A96F7 /* FilterFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFourViewController.swift; sourceTree = "<group>"; };
+		B6B57C931E83D89D004A96F7 /* FilterFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFiveViewController.swift; sourceTree = "<group>"; };
+		B6B57C951E83DCDF004A96F7 /* FilterSixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterSixViewController.swift; sourceTree = "<group>"; };
+		B6BBD3B91E672D530098EE8D /* CarSalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSalesViewController.swift; sourceTree = "<group>"; };
+		B6BBD3BC1E673C670098EE8D /* CellCarSales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCarSales.swift; sourceTree = "<group>"; };
+		B6BBD3BE1E673C730098EE8D /* CellCarSales.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCarSales.xib; sourceTree = "<group>"; };
+		B6BBD3C01E67553F0098EE8D /* CarSalesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSalesDetailViewController.swift; sourceTree = "<group>"; };
+		B6BBD3C31E6756210098EE8D /* CellCarSalesDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCarSalesDetail.swift; sourceTree = "<group>"; };
+		B6BBD3C41E6756210098EE8D /* CellCarSalesDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCarSalesDetail.xib; sourceTree = "<group>"; };
+		B6C054911E6F489F001BDBAF /* AddNumberPlateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNumberPlateViewController.swift; sourceTree = "<group>"; };
+		B6C054931E6F4FDD001BDBAF /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		B6C054951E6F535E001BDBAF /* NumberPlateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPlateDetailViewController.swift; sourceTree = "<group>"; };
+		B6CEE8601E6BD3F20083FE74 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		B6CEE8621E6BD4030083FE74 /* TagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagView.xib; sourceTree = "<group>"; };
+		B6CEE8651E6BD51C0083FE74 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		B6CEE8671E6BDFCD0083FE74 /* BottomViewWithFiveOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithFiveOptions.swift; sourceTree = "<group>"; };
+		B6CEE8691E6BDFD50083FE74 /* BottomViewWithFiveOptions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithFiveOptions.xib; sourceTree = "<group>"; };
+		B6CEE86B1E6BE0830083FE74 /* BottomViewWithSingleOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithSingleOption.swift; sourceTree = "<group>"; };
+		B6CEE86D1E6BE08A0083FE74 /* BottomViewWithSingleOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithSingleOption.xib; sourceTree = "<group>"; };
+		B6CEE86F1E6BE8150083FE74 /* BottomViewWithThreeOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithThreeOptions.swift; sourceTree = "<group>"; };
+		B6CEE8711E6BE81D0083FE74 /* BottomViewWithThreeOptions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithThreeOptions.xib; sourceTree = "<group>"; };
+		B6CEE8731E6BE8A50083FE74 /* BottomViewWithSingleFilterOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithSingleFilterOption.swift; sourceTree = "<group>"; };
+		B6CEE8751E6BE8AD0083FE74 /* BottomViewWithSingleFilterOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithSingleFilterOption.xib; sourceTree = "<group>"; };
+		B6CEE87B1E6C280B0083FE74 /* BottomViewWithThreeFilterOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithThreeFilterOptions.swift; sourceTree = "<group>"; };
+		B6CEE87D1E6C28150083FE74 /* BottomViewWithThreeFilterOptions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithThreeFilterOptions.xib; sourceTree = "<group>"; };
+		B6CEE8811E6C2D8D0083FE74 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		B6CEE8831E6C31430083FE74 /* ShowRoomDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowRoomDetailViewController.swift; sourceTree = "<group>"; };
+		B6CEE8851E6C357B0083FE74 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		B6CEE8861E6C357B0083FE74 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE8871E6C357B0083FE74 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		B6CEE8881E6C357B0083FE74 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE8891E6C357B0083FE74 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B6CEE88A1E6C357B0083FE74 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE88B1E6C357B0083FE74 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B6CEE88C1E6C357B0083FE74 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE88D1E6C357B0083FE74 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		B6CEE88E1E6C357B0083FE74 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		B6CEE88F1E6C357B0083FE74 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE8901E6C357B0083FE74 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		B6CEE8911E6C357B0083FE74 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE8921E6C357B0083FE74 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		B6CEE8931E6C357B0083FE74 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		B6CEE8941E6C357B0083FE74 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE8951E6C357B0083FE74 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		B6CEE8961E6C357B0083FE74 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B6CEE8A91E6C38AC0083FE74 /* BottomViewWithTwoOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithTwoOptions.swift; sourceTree = "<group>"; };
+		B6CEE8AB1E6C38B40083FE74 /* BottomViewWithTwoOptions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithTwoOptions.xib; sourceTree = "<group>"; };
+		B6CEE8AD1E6C3A370083FE74 /* CarRentalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarRentalDetailViewController.swift; sourceTree = "<group>"; };
+		B6CEE8AF1E6C3C320083FE74 /* BottomViewWithTwoFilterOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewWithTwoFilterOptions.swift; sourceTree = "<group>"; };
+		B6CEE8B11E6C3C390083FE74 /* BottomViewWithTwoFilterOptions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewWithTwoFilterOptions.xib; sourceTree = "<group>"; };
+		B6CEE8B31E6C3D300083FE74 /* CarRentalListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarRentalListViewController.swift; sourceTree = "<group>"; };
+		B6CEE8B71E6C42C50083FE74 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
+		B6CEE8B91E6C509F0083FE74 /* CellMaintenance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellMaintenance.swift; sourceTree = "<group>"; };
+		B6CEE8BA1E6C509F0083FE74 /* CellMaintenance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellMaintenance.xib; sourceTree = "<group>"; };
+		B6CEE8BF1E6C55B50083FE74 /* AccessoriesAndServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoriesAndServicesViewController.swift; sourceTree = "<group>"; };
+		B6CEE8C21E6C572D0083FE74 /* NumberPlatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberPlatesViewController.swift; sourceTree = "<group>"; };
+		B6CEE8C41E6C579B0083FE74 /* CellNumberPlate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellNumberPlate.swift; sourceTree = "<group>"; };
+		B6CEE8C51E6C579B0083FE74 /* CellNumberPlate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellNumberPlate.xib; sourceTree = "<group>"; };
+		B6CEE8C91E6C9EDD0083FE74 /* CellCarSalesDetailDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCarSalesDetailDescription.swift; sourceTree = "<group>"; };
+		B6CEE8CA1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCarSalesDetailDescription.xib; sourceTree = "<group>"; };
+		B6FEF99D1E74101800100EFA /* BottomViewSelectionStates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewSelectionStates.swift; sourceTree = "<group>"; };
+		B6FEF9A01E741D1600100EFA /* CarWashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarWashViewController.swift; sourceTree = "<group>"; };
+		B6FEF9A31E74200200100EFA /* CellCarWash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCarWash.swift; sourceTree = "<group>"; };
+		B6FEF9A41E74200200100EFA /* CellCarWash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCarWash.xib; sourceTree = "<group>"; };
+		B6FEF9A71E742AB300100EFA /* CellCarWashDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCarWashDescription.swift; sourceTree = "<group>"; };
+		B6FEF9A81E742AB400100EFA /* CellCarWashDescription.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCarWashDescription.xib; sourceTree = "<group>"; };
+		B6FEF9AB1E742F6A00100EFA /* CellChatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellChatBubble.swift; sourceTree = "<group>"; };
+		B6FEF9AC1E742F6A00100EFA /* CellChatBubble.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellChatBubble.xib; sourceTree = "<group>"; };
+		B6FEF9B11E74393A00100EFA /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		EDABCF35AA93D0B1AC1237F8 /* Pods-QatarSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QatarSales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QatarSales/Pods-QatarSales.debug.xcconfig"; sourceTree = "<group>"; };
+		F5ED59A72561C7B821479534 /* Pods-QatarSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QatarSales.release.xcconfig"; path = "Pods/Target Support Files/Pods-QatarSales/Pods-QatarSales.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65B99861E61E5CF0042DFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF715177AD86C1C5B7DE167F /* Pods_QatarSales.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3592B007FC0B76752B8DAAF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDABCF35AA93D0B1AC1237F8 /* Pods-QatarSales.debug.xcconfig */,
+				F5ED59A72561C7B821479534 /* Pods-QatarSales.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B61BBF5B1E7C52A9003826E4 /* Spare Parts */ = {
+			isa = PBXGroup;
+			children = (
+				B61BBF591E7C5295003826E4 /* SparePartsMenuViewController.swift */,
+				B61BBF621E7C653F003826E4 /* SparePartsShopViewController.swift */,
+				B61BBF641E7C6685003826E4 /* ReviewsViewController.swift */,
+				B64B66B11E80556500D15203 /* SparePartsShopDetailViewController.swift */,
+			);
+			name = "Spare Parts";
+			sourceTree = "<group>";
+		};
+		B61BBF5D1E7C5C87003826E4 /* Cell Spare Parts Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B61BBF5E1E7C5CF6003826E4 /* CellSparePartsDetail.swift */,
+				B61BBF5F1E7C5CF6003826E4 /* CellSparePartsDetail.xib */,
+			);
+			name = "Cell Spare Parts Detail";
+			sourceTree = "<group>";
+		};
+		B61BBF6A1E7C6E08003826E4 /* CellReviews */ = {
+			isa = PBXGroup;
+			children = (
+				B61BBF661E7C6E04003826E4 /* CellReviews.swift */,
+				B61BBF671E7C6E04003826E4 /* CellReviews.xib */,
+			);
+			name = CellReviews;
+			sourceTree = "<group>";
+		};
+		B62875791E70777800F450D6 /* Show Room Detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B628757A1E7077A000F450D6 /* CellShowRoomDetail.swift */,
+				B628757B1E7077A000F450D6 /* CellShowRoomDetail.xib */,
+			);
+			name = "Show Room Detail Cell";
+			sourceTree = "<group>";
+		};
+		B62875801E708E2800F450D6 /* Garage */ = {
+			isa = PBXGroup;
+			children = (
+				B62875811E708E7200F450D6 /* GarageViewController.swift */,
+				B61BBF6B1E7C7315003826E4 /* GarageCarsViewController.swift */,
+			);
+			path = Garage;
+			sourceTree = "<group>";
+		};
+		B63699F61E89A33800BFCF2A /* Car Accessories Add */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB56D31E81AC90009DEA89 /* AddCarAccessoriesViewController.swift */,
+			);
+			name = "Car Accessories Add";
+			sourceTree = "<group>";
+		};
+		B63699F71E89A34B00BFCF2A /* Car Accessories Shop */ = {
+			isa = PBXGroup;
+			children = (
+				B63699F21E899C5600BFCF2A /* CarAccessoriesShopViewController.swift */,
+				B63699F41E899D5C00BFCF2A /* CarAccessoriesShopDetailViewController.swift */,
+			);
+			name = "Car Accessories Shop";
+			sourceTree = "<group>";
+		};
+		B63699F81E8ADA5700BFCF2A /* Protection */ = {
+			isa = PBXGroup;
+			children = (
+				B63699F91E8ADA7200BFCF2A /* ProtectionViewController.swift */,
+			);
+			path = Protection;
+			sourceTree = "<group>";
+		};
+		B63699FB1E8ADD6B00BFCF2A /* Upholstry */ = {
+			isa = PBXGroup;
+			children = (
+				B63699FC1E8ADD8B00BFCF2A /* UpholstryViewController.swift */,
+			);
+			path = Upholstry;
+			sourceTree = "<group>";
+		};
+		B63699FE1E8AE1E000BFCF2A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B63699FF1E8AE1F800BFCF2A /* SWRevealViewController.h */,
+				B6369A001E8AE1F800BFCF2A /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		B6369A021E8AE24200BFCF2A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B6369A031E8AE26400BFCF2A /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B6369A091E8AF4E300BFCF2A /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6369A071E8AF4DA00BFCF2A /* MapViewController.swift */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		B65B99801E61E5CF0042DFAA = {
+			isa = PBXGroup;
+			children = (
+				B65B99B81E62D35B0042DFAA /* Frameworks&Libraries */,
+				B65B998B1E61E5CF0042DFAA /* QatarSales */,
+				B65B998A1E61E5CF0042DFAA /* Products */,
+				3592B007FC0B76752B8DAAF0 /* Pods */,
+				FBC99BF16B81AEED5C7E5A6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B65B998A1E61E5CF0042DFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99891E61E5CF0042DFAA /* QatarSales.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65B998B1E61E5CF0042DFAA /* QatarSales */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB56CE1E81A8F9009DEA89 /* Registration  */,
+				B65B99A91E61E86E0042DFAA /* Assets */,
+				B65B99A71E61E8220042DFAA /* Storyboards */,
+				B65B99A31E61E6E80042DFAA /* Helpers */,
+				B65B99A21E61E6D00042DFAA /* View Controllers */,
+				B65B999F1E61E65A0042DFAA /* Common */,
+				B65B999E1E61E6440042DFAA /* Models */,
+			);
+			path = QatarSales;
+			sourceTree = "<group>";
+		};
+		B65B999E1E61E6440042DFAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99B11E61F34F0042DFAA /* ServiceModel.swift */,
+				B6519D8C1E6A05EE0035003F /* HomeDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B65B999F1E61E65A0042DFAA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99AB1E61EA300042DFAA /* App Delegate */,
+				B65B99A61E61E7E70042DFAA /* Protocols */,
+				B65B99A51E61E7DC0042DFAA /* Enums */,
+				B65B99A41E61E7D30042DFAA /* Extensions */,
+				B65B99A11E61E6690042DFAA /* Custom Views */,
+				B65B99A01E61E6610042DFAA /* Cells */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B65B99A01E61E6610042DFAA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B6B57C831E83221D004A96F7 /* Cell Sorting */,
+				B61BBF5D1E7C5C87003826E4 /* Cell Spare Parts Detail */,
+				B6AD78BC1E7523B50063C690 /* CellDiscussion */,
+				B6FEF9A21E741FE200100EFA /* Car Wash Policy */,
+				B62875791E70777800F450D6 /* Show Room Detail Cell */,
+				B6B255CC1E689A7E00A7C674 /* Cell Show Room */,
+				B6BBD3C21E6755E70098EE8D /* Cell Car Sale Detail */,
+				B6BBD3BB1E673BAE0098EE8D /* Cell Car Sales */,
+				B65B99D51E64B04C0042DFAA /* Home Cell */,
+				B6CEE8BD1E6C50A90083FE74 /* Maintenance Cell */,
+				B6CEE8C81E6C57A10083FE74 /* NumberPlate Cell */,
+				B61BBF6A1E7C6E08003826E4 /* CellReviews */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B65B99A11E61E6690042DFAA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8601E6BD3F20083FE74 /* TagView.swift */,
+				B6CEE8621E6BD4030083FE74 /* TagView.xib */,
+				B6CEE8671E6BDFCD0083FE74 /* BottomViewWithFiveOptions.swift */,
+				B6CEE8691E6BDFD50083FE74 /* BottomViewWithFiveOptions.xib */,
+				B6CEE86B1E6BE0830083FE74 /* BottomViewWithSingleOption.swift */,
+				B6CEE86D1E6BE08A0083FE74 /* BottomViewWithSingleOption.xib */,
+				B6CEE86F1E6BE8150083FE74 /* BottomViewWithThreeOptions.swift */,
+				B6CEE8711E6BE81D0083FE74 /* BottomViewWithThreeOptions.xib */,
+				B6CEE8731E6BE8A50083FE74 /* BottomViewWithSingleFilterOption.swift */,
+				B6CEE8751E6BE8AD0083FE74 /* BottomViewWithSingleFilterOption.xib */,
+				B6CEE87B1E6C280B0083FE74 /* BottomViewWithThreeFilterOptions.swift */,
+				B6CEE87D1E6C28150083FE74 /* BottomViewWithThreeFilterOptions.xib */,
+				B6CEE8A91E6C38AC0083FE74 /* BottomViewWithTwoOptions.swift */,
+				B6CEE8AB1E6C38B40083FE74 /* BottomViewWithTwoOptions.xib */,
+				B6CEE8AF1E6C3C320083FE74 /* BottomViewWithTwoFilterOptions.swift */,
+				B6CEE8B11E6C3C390083FE74 /* BottomViewWithTwoFilterOptions.xib */,
+				B6AD78B51E7484710063C690 /* BottomViewWithFourOptions.swift */,
+				B6AD78B71E74847F0063C690 /* BottomViewWithFourOptions.xib */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		B65B99A21E61E6D00042DFAA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6369A021E8AE24200BFCF2A /* Menu */,
+				B63699FE1E8AE1E000BFCF2A /* SWRevealViewController */,
+				B63699FB1E8ADD6B00BFCF2A /* Upholstry */,
+				B63699F81E8ADA5700BFCF2A /* Protection */,
+				B6B57C881E8399AA004A96F7 /* Filters */,
+				B6B57C801E832137004A96F7 /* Sorting */,
+				B6AD78B91E75225B0063C690 /* Discussion */,
+				B6AD78B21E74833C0063C690 /* BreakDown Services */,
+				B6FEF99F1E741CE800100EFA /* Car Wash Policy */,
+				B62875801E708E2800F450D6 /* Garage */,
+				B6CEE8C11E6C57020083FE74 /* Number Plates */,
+				B6CEE8BE1E6C55810083FE74 /* Accessories & Services */,
+				B6CEE8B61E6C429E0083FE74 /* Maintenance */,
+				B6B255D11E68A00D00A7C674 /* Car Rentals */,
+				B6B255C71E68907600A7C674 /* ShowRooms */,
+				B6BBD3B81E672CBC0098EE8D /* Car Sales */,
+				B65B99CB1E64A60A0042DFAA /* HomeViewController */,
+				B65B99AC1E61F2390042DFAA /* Parent View Controller */,
+				B65B99CC1E64A7080042DFAA /* SelectLanguageViewController */,
+				B6B255D71E68A6BF00A7C674 /* Taxi Services */,
+				B61BBF5B1E7C52A9003826E4 /* Spare Parts */,
+				B6369A091E8AF4E300BFCF2A /* MapViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B65B99A31E61E6E80042DFAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99981E61E5CF0042DFAA /* Info.plist */,
+				B65B99B31E61F36C0042DFAA /* Utilities.swift */,
+				B65B99B51E61F37D0042DFAA /* Constants.swift */,
+				B65B99BA1E62D3C60042DFAA /* QatarSales-Bridging-Header.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B65B99A41E61E7D30042DFAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99AF1E61F2990042DFAA /* UIViewController.swift */,
+				B65B99C31E6488CA0042DFAA /* CustomButton.swift */,
+				B6B255CA1E6898AC00A7C674 /* CustomView.swift */,
+				B6FEF9B11E74393A00100EFA /* ImageView.swift */,
+				B6C054931E6F4FDD001BDBAF /* TextField.swift */,
+				B658C6B81E79C70700C22DCA /* TextView.swift */,
+				B6519D8E1E6A0AB60035003F /* UIColor.swift */,
+				B6519D901E6A0EE30035003F /* UIImage.swift */,
+				B6CEE8811E6C2D8D0083FE74 /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B65B99A51E61E7DC0042DFAA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B6FEF99D1E74101800100EFA /* BottomViewSelectionStates.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B65B99A61E61E7E70042DFAA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B65B99A71E61E8220042DFAA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99901E61E5CF0042DFAA /* Main.storyboard */,
+				B65B99951E61E5CF0042DFAA /* LaunchScreen.storyboard */,
+				B6B57C7E1E83211E004A96F7 /* SecondaryStoryboard.storyboard */,
+				B6369A051E8AE28D00BFCF2A /* MenuStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B65B99A91E61E86E0042DFAA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8641E6BD4F80083FE74 /* Fonts */,
+				B65B99AA1E61E8790042DFAA /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B65B99AA1E61E8790042DFAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99931E61E5CF0042DFAA /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B65B99AB1E61EA300042DFAA /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B65B998C1E61E5CF0042DFAA /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		B65B99AC1E61F2390042DFAA /* Parent View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99AD1E61F2600042DFAA /* ParentViewController.swift */,
+			);
+			path = "Parent View Controller";
+			sourceTree = "<group>";
+		};
+		B65B99B81E62D35B0042DFAA /* Frameworks&Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99B91E62D3AD0042DFAA /* Language Manager */,
+			);
+			path = "Frameworks&Libraries";
+			sourceTree = "<group>";
+		};
+		B65B99B91E62D3AD0042DFAA /* Language Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99BB1E62D3C60042DFAA /* LanguageManager.h */,
+				B65B99BC1E62D3C60042DFAA /* LanguageManager.m */,
+				B65B99BD1E62D3C60042DFAA /* NSBundle+Language.h */,
+				B65B99BE1E62D3C60042DFAA /* NSBundle+Language.m */,
+			);
+			path = "Language Manager";
+			sourceTree = "<group>";
+		};
+		B65B99CB1E64A60A0042DFAA /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99CD1E64A8220042DFAA /* HomeViewController.swift */,
+				B65B99CF1E64A84B0042DFAA /* WatchListViewController.swift */,
+				B65B99D11E64A8550042DFAA /* MyAddViewController.swift */,
+				B65B99DA1E65DCD20042DFAA /* HomeTabbarController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		B65B99CC1E64A7080042DFAA /* SelectLanguageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99D81E65DBE90042DFAA /* SelectLanguageViewController.swift */,
+			);
+			path = SelectLanguageViewController;
+			sourceTree = "<group>";
+		};
+		B65B99D51E64B04C0042DFAA /* Home Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B65B99D31E64B0410042DFAA /* CellHome.swift */,
+				B65B99D61E64B05D0042DFAA /* CellHome.xib */,
+			);
+			name = "Home Cell";
+			sourceTree = "<group>";
+		};
+		B6AB56CE1E81A8F9009DEA89 /* Registration  */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB56CF1E81A93A009DEA89 /* RegistrationViewController.swift */,
+			);
+			name = "Registration ";
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B6AD78B21E74833C0063C690 /* BreakDown Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD78B31E7483810063C690 /* BreakDownServicesViewController.swift */,
+				B61BBF6D1E7C75D1003826E4 /* BreakDownServicesListViewController.swift */,
+			);
+			path = "BreakDown Services";
+			sourceTree = "<group>";
+		};
+		B6AD78B91E75225B0063C690 /* Discussion */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD78BA1E7522770063C690 /* DiscussionViewController.swift */,
+				B6AB56D51E81C5C7009DEA89 /* AddDiscussionViewController.swift */,
+			);
+			name = Discussion;
+			sourceTree = "<group>";
+		};
+		B6AD78BC1E7523B50063C690 /* CellDiscussion */ = {
+			isa = PBXGroup;
+			children = (
+				B61BBF711E7D246F003826E4 /* CellDiscussionChat.swift */,
+				B61BBF721E7D246F003826E4 /* CellDiscussionChat.xib */,
+				B6AD78BD1E7523D70063C690 /* CellDiscussion.swift */,
+				B6AD78BE1E7523D70063C690 /* CellDiscussion.xib */,
+			);
+			name = CellDiscussion;
+			sourceTree = "<group>";
+		};
+		B6B255C71E68907600A7C674 /* ShowRooms */ = {
+			isa = PBXGroup;
+			children = (
+				B6B255C81E6897D600A7C674 /* ShowRoomViewController.swift */,
+				B6CEE8831E6C31430083FE74 /* ShowRoomDetailViewController.swift */,
+				B628757E1E707F6E00F450D6 /* ShowRoomCarsViewController.swift */,
+			);
+			path = ShowRooms;
+			sourceTree = "<group>";
+		};
+		B6B255CC1E689A7E00A7C674 /* Cell Show Room */ = {
+			isa = PBXGroup;
+			children = (
+				B6B255CD1E689A9E00A7C674 /* CellShowRoom.swift */,
+				B6B255CE1E689A9E00A7C674 /* CellShowRoom.xib */,
+			);
+			name = "Cell Show Room";
+			sourceTree = "<group>";
+		};
+		B6B255D11E68A00D00A7C674 /* Car Rentals */ = {
+			isa = PBXGroup;
+			children = (
+				B6B255D21E68A08100A7C674 /* CarRentalsViewController.swift */,
+				B6CEE8B31E6C3D300083FE74 /* CarRentalListViewController.swift */,
+				B6CEE8AD1E6C3A370083FE74 /* CarRentalDetailViewController.swift */,
+			);
+			path = "Car Rentals";
+			sourceTree = "<group>";
+		};
+		B6B255D71E68A6BF00A7C674 /* Taxi Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6B255D41E68A6A800A7C674 /* TaxiServicesViewController.swift */,
+			);
+			path = "Taxi Services";
+			sourceTree = "<group>";
+		};
+		B6B57C801E832137004A96F7 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				B6B57C811E83216A004A96F7 /* SortingViewController.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		B6B57C831E83221D004A96F7 /* Cell Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				B6B57C841E832237004A96F7 /* CellSorting.swift */,
+				B6B57C851E832237004A96F7 /* CellSorting.xib */,
+			);
+			name = "Cell Sorting";
+			sourceTree = "<group>";
+		};
+		B6B57C881E8399AA004A96F7 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				B6B57C891E839AD5004A96F7 /* FilterOneViewController.swift */,
+				B6B57C8B1E83AD5C004A96F7 /* MultiSelectViewController.swift */,
+				B6B57C8D1E83C5E5004A96F7 /* FilterTwoViewController.swift */,
+				B6B57C8F1E83CE31004A96F7 /* FilterThreeViewController.swift */,
+				B6B57C911E83D5B7004A96F7 /* FilterFourViewController.swift */,
+				B6B57C931E83D89D004A96F7 /* FilterFiveViewController.swift */,
+				B6B57C951E83DCDF004A96F7 /* FilterSixViewController.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		B6BBD3B81E672CBC0098EE8D /* Car Sales */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBD3B91E672D530098EE8D /* CarSalesViewController.swift */,
+				B6BBD3C01E67553F0098EE8D /* CarSalesDetailViewController.swift */,
+				B6AB56D11E81AC2A009DEA89 /* AddCarSalesViewController.swift */,
+			);
+			path = "Car Sales";
+			sourceTree = "<group>";
+		};
+		B6BBD3BB1E673BAE0098EE8D /* Cell Car Sales */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBD3BC1E673C670098EE8D /* CellCarSales.swift */,
+				B6BBD3BE1E673C730098EE8D /* CellCarSales.xib */,
+				B6CEE8C91E6C9EDD0083FE74 /* CellCarSalesDetailDescription.swift */,
+				B6CEE8CA1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.xib */,
+			);
+			name = "Cell Car Sales";
+			sourceTree = "<group>";
+		};
+		B6BBD3C21E6755E70098EE8D /* Cell Car Sale Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBD3C31E6756210098EE8D /* CellCarSalesDetail.swift */,
+				B6BBD3C41E6756210098EE8D /* CellCarSalesDetail.xib */,
+			);
+			name = "Cell Car Sale Detail";
+			sourceTree = "<group>";
+		};
+		B6CEE8641E6BD4F80083FE74 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8651E6BD51C0083FE74 /* FontAwesome.otf */,
+				B6CEE8851E6C357B0083FE74 /* Raleway-Black.ttf */,
+				B6CEE8861E6C357B0083FE74 /* Raleway-BlackItalic.ttf */,
+				B6CEE8871E6C357B0083FE74 /* Raleway-Bold.ttf */,
+				B6CEE8881E6C357B0083FE74 /* Raleway-BoldItalic.ttf */,
+				B6CEE8891E6C357B0083FE74 /* Raleway-ExtraBold.ttf */,
+				B6CEE88A1E6C357B0083FE74 /* Raleway-ExtraBoldItalic.ttf */,
+				B6CEE88B1E6C357B0083FE74 /* Raleway-ExtraLight.ttf */,
+				B6CEE88C1E6C357B0083FE74 /* Raleway-ExtraLightItalic.ttf */,
+				B6CEE88D1E6C357B0083FE74 /* Raleway-Italic.ttf */,
+				B6CEE88E1E6C357B0083FE74 /* Raleway-Light.ttf */,
+				B6CEE88F1E6C357B0083FE74 /* Raleway-LightItalic.ttf */,
+				B6CEE8901E6C357B0083FE74 /* Raleway-Medium.ttf */,
+				B6CEE8911E6C357B0083FE74 /* Raleway-MediumItalic.ttf */,
+				B6CEE8921E6C357B0083FE74 /* Raleway-Regular.ttf */,
+				B6CEE8931E6C357B0083FE74 /* Raleway-SemiBold.ttf */,
+				B6CEE8941E6C357B0083FE74 /* Raleway-SemiBoldItalic.ttf */,
+				B6CEE8951E6C357B0083FE74 /* Raleway-Thin.ttf */,
+				B6CEE8961E6C357B0083FE74 /* Raleway-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B6CEE8B61E6C429E0083FE74 /* Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8B71E6C42C50083FE74 /* MaintenanceViewController.swift */,
+			);
+			path = Maintenance;
+			sourceTree = "<group>";
+		};
+		B6CEE8BD1E6C50A90083FE74 /* Maintenance Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8B91E6C509F0083FE74 /* CellMaintenance.swift */,
+				B6CEE8BA1E6C509F0083FE74 /* CellMaintenance.xib */,
+			);
+			name = "Maintenance Cell";
+			sourceTree = "<group>";
+		};
+		B6CEE8BE1E6C55810083FE74 /* Accessories & Services */ = {
+			isa = PBXGroup;
+			children = (
+				B63699F71E89A34B00BFCF2A /* Car Accessories Shop */,
+				B63699F61E89A33800BFCF2A /* Car Accessories Add */,
+				B6CEE8BF1E6C55B50083FE74 /* AccessoriesAndServicesViewController.swift */,
+				B61BBF6F1E7C8643003826E4 /* CarAccessoriesViewController.swift */,
+				B64B66B31E80571900D15203 /* CarAccessoriesMenuViewController.swift */,
+			);
+			path = "Accessories & Services";
+			sourceTree = "<group>";
+		};
+		B6CEE8C11E6C57020083FE74 /* Number Plates */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8C21E6C572D0083FE74 /* NumberPlatesViewController.swift */,
+				B6C054911E6F489F001BDBAF /* AddNumberPlateViewController.swift */,
+				B6C054951E6F535E001BDBAF /* NumberPlateDetailViewController.swift */,
+			);
+			path = "Number Plates";
+			sourceTree = "<group>";
+		};
+		B6CEE8C81E6C57A10083FE74 /* NumberPlate Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B6CEE8C41E6C579B0083FE74 /* CellNumberPlate.swift */,
+				B6CEE8C51E6C579B0083FE74 /* CellNumberPlate.xib */,
+			);
+			name = "NumberPlate Cell";
+			sourceTree = "<group>";
+		};
+		B6FEF99F1E741CE800100EFA /* Car Wash Policy */ = {
+			isa = PBXGroup;
+			children = (
+				B6FEF9A01E741D1600100EFA /* CarWashViewController.swift */,
+				B6AD78C11E75DF0E0063C690 /* CarWashDetailViewController.swift */,
+				B6AD78C31E75E34A0063C690 /* CarWashListViewController.swift */,
+			);
+			path = "Car Wash Policy";
+			sourceTree = "<group>";
+		};
+		B6FEF9A21E741FE200100EFA /* Car Wash Policy */ = {
+			isa = PBXGroup;
+			children = (
+				B6FEF9A31E74200200100EFA /* CellCarWash.swift */,
+				B6FEF9A41E74200200100EFA /* CellCarWash.xib */,
+				B6FEF9A71E742AB300100EFA /* CellCarWashDescription.swift */,
+				B6FEF9A81E742AB400100EFA /* CellCarWashDescription.xib */,
+				B6FEF9AB1E742F6A00100EFA /* CellChatBubble.swift */,
+				B6FEF9AC1E742F6A00100EFA /* CellChatBubble.xib */,
+			);
+			name = "Car Wash Policy";
+			sourceTree = "<group>";
+		};
+		FBC99BF16B81AEED5C7E5A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C74A5E62663F414F64672FE /* Pods_QatarSales.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65B99881E61E5CF0042DFAA /* QatarSales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65B999B1E61E5CF0042DFAA /* Build configuration list for PBXNativeTarget "QatarSales" */;
+			buildPhases = (
+				95625CE672532549106BD8E5 /* [CP] Check Pods Manifest.lock */,
+				B65B99851E61E5CF0042DFAA /* Sources */,
+				B65B99861E61E5CF0042DFAA /* Frameworks */,
+				B65B99871E61E5CF0042DFAA /* Resources */,
+				12A8CF325DF7B3A1B927456B /* [CP] Embed Pods Frameworks */,
+				9203E4B04E8C2B51C48F7249 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QatarSales;
+			productName = QatarSales;
+			productReference = B65B99891E61E5CF0042DFAA /* QatarSales.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65B99811E61E5CF0042DFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Usman ";
+				TargetAttributes = {
+					B65B99881E61E5CF0042DFAA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W3Q26LC38N;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B65B99841E61E5CF0042DFAA /* Build configuration list for PBXProject "QatarSales" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65B99801E61E5CF0042DFAA;
+			productRefGroup = B65B998A1E61E5CF0042DFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65B99881E61E5CF0042DFAA /* QatarSales */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65B99871E61E5CF0042DFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BBD3C61E6756210098EE8D /* CellCarSalesDetail.xib in Resources */,
+				B61BBF611E7C5CF6003826E4 /* CellSparePartsDetail.xib in Resources */,
+				B6CEE8A21E6C357B0083FE74 /* Raleway-Medium.ttf in Resources */,
+				B6BBD3BF1E673C730098EE8D /* CellCarSales.xib in Resources */,
+				B6CEE8A41E6C357B0083FE74 /* Raleway-Regular.ttf in Resources */,
+				B6AD78C01E7523D70063C690 /* CellDiscussion.xib in Resources */,
+				B6B57C871E832237004A96F7 /* CellSorting.xib in Resources */,
+				B6CEE8A71E6C357B0083FE74 /* Raleway-Thin.ttf in Resources */,
+				B6CEE8A31E6C357B0083FE74 /* Raleway-MediumItalic.ttf in Resources */,
+				B6CEE89E1E6C357B0083FE74 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				B6CEE86E1E6BE08A0083FE74 /* BottomViewWithSingleOption.xib in Resources */,
+				B6FEF9AA1E742AB400100EFA /* CellCarWashDescription.xib in Resources */,
+				B65B99971E61E5CF0042DFAA /* LaunchScreen.storyboard in Resources */,
+				B6CEE8631E6BD4030083FE74 /* TagView.xib in Resources */,
+				B6FEF9AE1E742F6A00100EFA /* CellChatBubble.xib in Resources */,
+				B6CEE89D1E6C357B0083FE74 /* Raleway-ExtraLight.ttf in Resources */,
+				B65B99941E61E5CF0042DFAA /* Assets.xcassets in Resources */,
+				B6AD78B81E74847F0063C690 /* BottomViewWithFourOptions.xib in Resources */,
+				B6CEE8661E6BD51C0083FE74 /* FontAwesome.otf in Resources */,
+				B6CEE8A51E6C357B0083FE74 /* Raleway-SemiBold.ttf in Resources */,
+				B6369A061E8AE28D00BFCF2A /* MenuStoryboard.storyboard in Resources */,
+				B65B99D71E64B05D0042DFAA /* CellHome.xib in Resources */,
+				B6CEE8981E6C357B0083FE74 /* Raleway-BlackItalic.ttf in Resources */,
+				B6FEF9A61E74200200100EFA /* CellCarWash.xib in Resources */,
+				B6CEE8BC1E6C509F0083FE74 /* CellMaintenance.xib in Resources */,
+				B6CEE8A61E6C357B0083FE74 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				B65B99921E61E5CF0042DFAA /* Main.storyboard in Resources */,
+				B6CEE89F1E6C357B0083FE74 /* Raleway-Italic.ttf in Resources */,
+				B6CEE8CC1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.xib in Resources */,
+				B61BBF691E7C6E04003826E4 /* CellReviews.xib in Resources */,
+				B6B255D01E689A9E00A7C674 /* CellShowRoom.xib in Resources */,
+				B61BBF741E7D246F003826E4 /* CellDiscussionChat.xib in Resources */,
+				B6CEE86A1E6BDFD50083FE74 /* BottomViewWithFiveOptions.xib in Resources */,
+				B6CEE8A01E6C357B0083FE74 /* Raleway-Light.ttf in Resources */,
+				B6CEE8C71E6C579B0083FE74 /* CellNumberPlate.xib in Resources */,
+				B6CEE8761E6BE8AD0083FE74 /* BottomViewWithSingleFilterOption.xib in Resources */,
+				B6B57C7F1E83211E004A96F7 /* SecondaryStoryboard.storyboard in Resources */,
+				B6CEE8991E6C357B0083FE74 /* Raleway-Bold.ttf in Resources */,
+				B6CEE8721E6BE81D0083FE74 /* BottomViewWithThreeOptions.xib in Resources */,
+				B6CEE8B21E6C3C390083FE74 /* BottomViewWithTwoFilterOptions.xib in Resources */,
+				B6CEE8AC1E6C38B40083FE74 /* BottomViewWithTwoOptions.xib in Resources */,
+				B6CEE89B1E6C357B0083FE74 /* Raleway-ExtraBold.ttf in Resources */,
+				B6CEE89C1E6C357B0083FE74 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				B6CEE89A1E6C357B0083FE74 /* Raleway-BoldItalic.ttf in Resources */,
+				B6CEE8A11E6C357B0083FE74 /* Raleway-LightItalic.ttf in Resources */,
+				B628757D1E7077A000F450D6 /* CellShowRoomDetail.xib in Resources */,
+				B6CEE8A81E6C357B0083FE74 /* Raleway-ThinItalic.ttf in Resources */,
+				B6CEE87E1E6C28150083FE74 /* BottomViewWithThreeFilterOptions.xib in Resources */,
+				B6CEE8971E6C357B0083FE74 /* Raleway-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A8CF325DF7B3A1B927456B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QatarSales/Pods-QatarSales-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9203E4B04E8C2B51C48F7249 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QatarSales/Pods-QatarSales-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95625CE672532549106BD8E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65B99851E61E5CF0042DFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B255D51E68A6A800A7C674 /* TaxiServicesViewController.swift in Sources */,
+				B65B99B41E61F36C0042DFAA /* Utilities.swift in Sources */,
+				B6AB56D01E81A93A009DEA89 /* RegistrationViewController.swift in Sources */,
+				B65B99D01E64A84B0042DFAA /* WatchListViewController.swift in Sources */,
+				B65B99D91E65DBE90042DFAA /* SelectLanguageViewController.swift in Sources */,
+				B6CEE8B81E6C42C50083FE74 /* MaintenanceViewController.swift in Sources */,
+				B6B255CB1E6898AC00A7C674 /* CustomView.swift in Sources */,
+				B61BBF6E1E7C75D1003826E4 /* BreakDownServicesListViewController.swift in Sources */,
+				B65B99D41E64B0410042DFAA /* CellHome.swift in Sources */,
+				B6CEE87C1E6C280B0083FE74 /* BottomViewWithThreeFilterOptions.swift in Sources */,
+				B6519D911E6A0EE30035003F /* UIImage.swift in Sources */,
+				B6BBD3BA1E672D530098EE8D /* CarSalesViewController.swift in Sources */,
+				B65B99B21E61F34F0042DFAA /* ServiceModel.swift in Sources */,
+				B6AB56D61E81C5C7009DEA89 /* AddDiscussionViewController.swift in Sources */,
+				B628757C1E7077A000F450D6 /* CellShowRoomDetail.swift in Sources */,
+				B65B99C01E62D3C60042DFAA /* NSBundle+Language.m in Sources */,
+				B6CEE8AA1E6C38AC0083FE74 /* BottomViewWithTwoOptions.swift in Sources */,
+				B61BBF681E7C6E04003826E4 /* CellReviews.swift in Sources */,
+				B64B66B21E80556500D15203 /* SparePartsShopDetailViewController.swift in Sources */,
+				B6AB56D41E81AC90009DEA89 /* AddCarAccessoriesViewController.swift in Sources */,
+				B6519D8F1E6A0AB60035003F /* UIColor.swift in Sources */,
+				B6CEE8C31E6C572D0083FE74 /* NumberPlatesViewController.swift in Sources */,
+				B6FEF9A91E742AB400100EFA /* CellCarWashDescription.swift in Sources */,
+				B63699F51E899D5C00BFCF2A /* CarAccessoriesShopDetailViewController.swift in Sources */,
+				B6CEE8BB1E6C509F0083FE74 /* CellMaintenance.swift in Sources */,
+				B61BBF631E7C653F003826E4 /* SparePartsShopViewController.swift in Sources */,
+				B63699FA1E8ADA7200BFCF2A /* ProtectionViewController.swift in Sources */,
+				B6B57C8A1E839AD5004A96F7 /* FilterOneViewController.swift in Sources */,
+				B6CEE8C01E6C55B50083FE74 /* AccessoriesAndServicesViewController.swift in Sources */,
+				B628757F1E707F6E00F450D6 /* ShowRoomCarsViewController.swift in Sources */,
+				B6AD78C41E75E34A0063C690 /* CarWashListViewController.swift in Sources */,
+				B6CEE8611E6BD3F20083FE74 /* TagView.swift in Sources */,
+				B65B99BF1E62D3C60042DFAA /* LanguageManager.m in Sources */,
+				B6B255C91E6897D600A7C674 /* ShowRoomViewController.swift in Sources */,
+				B6B57C901E83CE31004A96F7 /* FilterThreeViewController.swift in Sources */,
+				B6C054941E6F4FDD001BDBAF /* TextField.swift in Sources */,
+				B61BBF731E7D246F003826E4 /* CellDiscussionChat.swift in Sources */,
+				B63699FD1E8ADD8B00BFCF2A /* UpholstryViewController.swift in Sources */,
+				B6AD78BB1E7522770063C690 /* DiscussionViewController.swift in Sources */,
+				B6CEE8841E6C31430083FE74 /* ShowRoomDetailViewController.swift in Sources */,
+				B6CEE8741E6BE8A50083FE74 /* BottomViewWithSingleFilterOption.swift in Sources */,
+				B6519D8D1E6A05EE0035003F /* HomeDataModel.swift in Sources */,
+				B64B66B41E80571900D15203 /* CarAccessoriesMenuViewController.swift in Sources */,
+				B6FEF9AD1E742F6A00100EFA /* CellChatBubble.swift in Sources */,
+				B62875821E708E7200F450D6 /* GarageViewController.swift in Sources */,
+				B6B57C941E83D89D004A96F7 /* FilterFiveViewController.swift in Sources */,
+				B6B57C921E83D5B7004A96F7 /* FilterFourViewController.swift in Sources */,
+				B6CEE8B01E6C3C320083FE74 /* BottomViewWithTwoFilterOptions.swift in Sources */,
+				B6B57C8C1E83AD5C004A96F7 /* MultiSelectViewController.swift in Sources */,
+				B61BBF6C1E7C7315003826E4 /* GarageCarsViewController.swift in Sources */,
+				B6AD78B41E7483810063C690 /* BreakDownServicesViewController.swift in Sources */,
+				B6369A041E8AE26400BFCF2A /* MenuViewController.swift in Sources */,
+				B6B57C821E83216A004A96F7 /* SortingViewController.swift in Sources */,
+				B6FEF99E1E74101800100EFA /* BottomViewSelectionStates.swift in Sources */,
+				B6FEF9A51E74200200100EFA /* CellCarWash.swift in Sources */,
+				B6BBD3BD1E673C670098EE8D /* CellCarSales.swift in Sources */,
+				B6CEE8681E6BDFCD0083FE74 /* BottomViewWithFiveOptions.swift in Sources */,
+				B65B99D21E64A8550042DFAA /* MyAddViewController.swift in Sources */,
+				B6CEE8AE1E6C3A370083FE74 /* CarRentalDetailViewController.swift in Sources */,
+				B6CEE8B41E6C3D300083FE74 /* CarRentalListViewController.swift in Sources */,
+				B61BBF5A1E7C5295003826E4 /* SparePartsMenuViewController.swift in Sources */,
+				B61BBF601E7C5CF6003826E4 /* CellSparePartsDetail.swift in Sources */,
+				B61BBF701E7C8643003826E4 /* CarAccessoriesViewController.swift in Sources */,
+				B65B998D1E61E5CF0042DFAA /* AppDelegate.swift in Sources */,
+				B658C6B91E79C70700C22DCA /* TextView.swift in Sources */,
+				B6FEF9A11E741D1600100EFA /* CarWashViewController.swift in Sources */,
+				B6B57C861E832237004A96F7 /* CellSorting.swift in Sources */,
+				B6FEF9B21E74393A00100EFA /* ImageView.swift in Sources */,
+				B6B255CF1E689A9E00A7C674 /* CellShowRoom.swift in Sources */,
+				B6B57C961E83DCDF004A96F7 /* FilterSixViewController.swift in Sources */,
+				B6CEE8CB1E6C9EDD0083FE74 /* CellCarSalesDetailDescription.swift in Sources */,
+				B6C054961E6F535E001BDBAF /* NumberPlateDetailViewController.swift in Sources */,
+				B6AB56D21E81AC2A009DEA89 /* AddCarSalesViewController.swift in Sources */,
+				B65B99C41E6488CA0042DFAA /* CustomButton.swift in Sources */,
+				B65B99CE1E64A8220042DFAA /* HomeViewController.swift in Sources */,
+				B6B57C8E1E83C5E5004A96F7 /* FilterTwoViewController.swift in Sources */,
+				B6AD78C21E75DF0E0063C690 /* CarWashDetailViewController.swift in Sources */,
+				B6CEE8701E6BE8150083FE74 /* BottomViewWithThreeOptions.swift in Sources */,
+				B6BBD3C11E67553F0098EE8D /* CarSalesDetailViewController.swift in Sources */,
+				B6AD78B61E7484710063C690 /* BottomViewWithFourOptions.swift in Sources */,
+				B6BBD3C51E6756210098EE8D /* CellCarSalesDetail.swift in Sources */,
+				B65B99B61E61F37D0042DFAA /* Constants.swift in Sources */,
+				B6B255D31E68A08100A7C674 /* CarRentalsViewController.swift in Sources */,
+				B6369A081E8AF4DA00BFCF2A /* MapViewController.swift in Sources */,
+				B6CEE8821E6C2D8D0083FE74 /* UILabel.swift in Sources */,
+				B6CEE8C61E6C579B0083FE74 /* CellNumberPlate.swift in Sources */,
+				B6AD78BF1E7523D70063C690 /* CellDiscussion.swift in Sources */,
+				B65B99B01E61F2990042DFAA /* UIViewController.swift in Sources */,
+				B6369A011E8AE1F800BFCF2A /* SWRevealViewController.m in Sources */,
+				B63699F31E899C5600BFCF2A /* CarAccessoriesShopViewController.swift in Sources */,
+				B6C054921E6F489F001BDBAF /* AddNumberPlateViewController.swift in Sources */,
+				B65B99AE1E61F2600042DFAA /* ParentViewController.swift in Sources */,
+				B6CEE86C1E6BE0830083FE74 /* BottomViewWithSingleOption.swift in Sources */,
+				B61BBF651E7C6685003826E4 /* ReviewsViewController.swift in Sources */,
+				B65B99DB1E65DCD20042DFAA /* HomeTabbarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B65B99901E61E5CF0042DFAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65B99911E61E5CF0042DFAA /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B65B99951E61E5CF0042DFAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65B99961E61E5CF0042DFAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65B99991E61E5CF0042DFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65B999A1E61E5CF0042DFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65B999C1E61E5CF0042DFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDABCF35AA93D0B1AC1237F8 /* Pods-QatarSales.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hamad Al Marri (9S5X5T8S3A)";
+				DEVELOPMENT_TEAM = W3Q26LC38N;
+				INFOPLIST_FILE = QatarSales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QatarSales.iMotors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7cda9896-fb27-433d-bfef-34efc714e416";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "Frameworks&Libraries/Language Manager/QatarSales-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B65B999D1E61E5CF0042DFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5ED59A72561C7B821479534 /* Pods-QatarSales.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hamad Al Marri (W3Q26LC38N)";
+				DEVELOPMENT_TEAM = W3Q26LC38N;
+				INFOPLIST_FILE = QatarSales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QatarSales.iMotors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f142f355-4301-4719-ad7e-b2b11c47270f";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Distribution";
+				SWIFT_OBJC_BRIDGING_HEADER = "Frameworks&Libraries/Language Manager/QatarSales-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65B99841E61E5CF0042DFAA /* Build configuration list for PBXProject "QatarSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65B99991E61E5CF0042DFAA /* Debug */,
+				B65B999A1E61E5CF0042DFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65B999B1E61E5CF0042DFAA /* Build configuration list for PBXNativeTarget "QatarSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65B999C1E61E5CF0042DFAA /* Debug */,
+				B65B999D1E61E5CF0042DFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65B99811E61E5CF0042DFAA /* Project object */;
+}

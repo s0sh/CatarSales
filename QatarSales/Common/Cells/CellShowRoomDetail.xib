@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="identifierShowRoomDetail" id="gTV-IL-0wX" customClass="CellShowRoomDetail" customModule="QatarSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="358"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="358"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ae-a4-XY4" customClass="CustomView" customModule="QatarSales" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Farrari" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJq-HP-bdx">
+                                <rect key="frame" x="8" y="5" width="51" height="21"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$95000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdX-b2-8c3">
+                                <rect key="frame" x="323" y="5" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="4L7-NE-klC"/>
+                            <constraint firstAttribute="bottom" secondItem="PdX-b2-8c3" secondAttribute="bottom" constant="4" id="Emm-Ra-Aa4"/>
+                            <constraint firstItem="zJq-HP-bdx" firstAttribute="leading" secondItem="0Ae-a4-XY4" secondAttribute="leading" constant="8" id="J53-qg-Qxp"/>
+                            <constraint firstAttribute="bottom" secondItem="zJq-HP-bdx" secondAttribute="bottom" constant="4" id="RFZ-ye-Akf"/>
+                            <constraint firstItem="zJq-HP-bdx" firstAttribute="top" secondItem="0Ae-a4-XY4" secondAttribute="top" constant="5" id="Z3T-CK-XNg"/>
+                            <constraint firstAttribute="trailing" secondItem="PdX-b2-8c3" secondAttribute="trailing" constant="8" id="dhz-Pp-Ek2"/>
+                            <constraint firstItem="PdX-b2-8c3" firstAttribute="top" secondItem="0Ae-a4-XY4" secondAttribute="top" constant="5" id="lJG-1L-37T"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hwy-G8-ZFi" customClass="CustomView" customModule="QatarSales" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="212" width="377" height="146"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ec8-9d-sfR" customClass="TagView" customModule="QatarSales" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="77" height="23"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="4Iz-aE-6DJ"/>
+                                    <constraint firstAttribute="width" secondItem="ec8-9d-sfR" secondAttribute="height" multiplier="77:23" id="I2p-MD-Jo4"/>
+                                    <constraint firstAttribute="height" constant="23" id="Od0-1A-xYx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sA1-un-bWf" customClass="TagView" customModule="QatarSales" customModuleProvider="target">
+                                <rect key="frame" x="280" y="20" width="77" height="23"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="Ahd-Cg-DHS"/>
+                                    <constraint firstAttribute="width" constant="77" id="Pn6-W2-oWQ"/>
+                                    <constraint firstAttribute="width" secondItem="sA1-un-bWf" secondAttribute="height" multiplier="77:23" id="nDS-QX-qHn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="value" value="938"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="icon" value=""/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qm-Iv-k0m">
+                                <rect key="frame" x="20" y="51" width="346" height="14"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Opening time: Thr-Sat">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Raleway-SemiBold"/>
+                                            <font key="NSOriginalFont" size="12" name="Raleway-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" 3 PM to 11 PM">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Raleway-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcn-mg-fuI">
+                                <rect key="frame" x="20" y="73" width="346" height="14"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="(Open now) Sun-Wed">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Raleway-SemiBold"/>
+                                            <font key="NSOriginalFont" size="12" name="Raleway-SemiBold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" 8 AM to 11 AM">
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="Raleway-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 PM to 11PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRb-hW-Agw">
+                                <rect key="frame" x="20" y="95" width="346" height="14"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1qm-Iv-k0m" firstAttribute="leading" secondItem="hwy-G8-ZFi" secondAttribute="leading" constant="20" id="3do-ak-j6Z"/>
+                            <constraint firstItem="Tcn-mg-fuI" firstAttribute="leading" secondItem="hwy-G8-ZFi" secondAttribute="leading" constant="20" id="7kq-Fs-hzY"/>
+                            <constraint firstAttribute="trailing" secondItem="1qm-Iv-k0m" secondAttribute="trailing" constant="11" id="9Uj-MZ-RfW"/>
+                            <constraint firstItem="1qm-Iv-k0m" firstAttribute="top" secondItem="sA1-un-bWf" secondAttribute="bottom" constant="8" id="Gd4-8g-igv"/>
+                            <constraint firstItem="PRb-hW-Agw" firstAttribute="top" secondItem="Tcn-mg-fuI" secondAttribute="bottom" constant="8" id="QZI-9M-d75"/>
+                            <constraint firstItem="PRb-hW-Agw" firstAttribute="leading" secondItem="hwy-G8-ZFi" secondAttribute="leading" constant="20" id="TzI-Ft-LyU"/>
+                            <constraint firstItem="ec8-9d-sfR" firstAttribute="top" secondItem="hwy-G8-ZFi" secondAttribute="top" constant="20" id="aWm-Zt-Pcr"/>
+                            <constraint firstItem="ec8-9d-sfR" firstAttribute="leading" secondItem="hwy-G8-ZFi" secondAttribute="leading" constant="20" id="iOz-zQ-gHX"/>
+                            <constraint firstItem="sA1-un-bWf" firstAttribute="top" secondItem="hwy-G8-ZFi" secondAttribute="top" constant="20" id="llC-5D-11G"/>
+                            <constraint firstAttribute="trailing" secondItem="PRb-hW-Agw" secondAttribute="trailing" constant="11" id="nRK-ZO-Z9x"/>
+                            <constraint firstAttribute="trailing" secondItem="sA1-un-bWf" secondAttribute="trailing" constant="20" id="qfV-EB-19q"/>
+                            <constraint firstItem="Tcn-mg-fuI" firstAttribute="top" secondItem="1qm-Iv-k0m" secondAttribute="bottom" constant="8" id="rQh-0y-AY1"/>
+                            <constraint firstAttribute="trailing" secondItem="Tcn-mg-fuI" secondAttribute="trailing" constant="11" id="yBR-0c-gEq"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgg-lA-LiK">
+                        <rect key="frame" x="0.0" y="28" width="377" height="186"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="uzB-uX-PQf">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="186"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uzB-uX-PQf" secondAttribute="trailing" id="AUA-X9-X1f"/>
+                            <constraint firstAttribute="height" constant="186" id="NBI-Oo-oeG"/>
+                            <constraint firstAttribute="bottom" secondItem="uzB-uX-PQf" secondAttribute="bottom" id="UMa-UW-hRO"/>
+                            <constraint firstItem="uzB-uX-PQf" firstAttribute="leading" secondItem="mgg-lA-LiK" secondAttribute="leading" id="Z3M-gJ-E2Q"/>
+                            <constraint firstAttribute="width" constant="377" id="iz6-hG-uK4"/>
+                            <constraint firstItem="uzB-uX-PQf" firstAttribute="top" secondItem="mgg-lA-LiK" secondAttribute="top" id="pP7-kM-hUb"/>
+                            <constraint firstAttribute="width" secondItem="mgg-lA-LiK" secondAttribute="height" multiplier="377:246" constant="91.951219512195109" id="tX5-H2-Xmn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="hwy-G8-ZFi" firstAttribute="top" secondItem="mgg-lA-LiK" secondAttribute="bottom" constant="-2" id="EmX-Mn-Iqf"/>
+                <constraint firstItem="hwy-G8-ZFi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mxd-D5-Bxd"/>
+                <constraint firstItem="0Ae-a4-XY4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rq4-Qn-7xF"/>
+                <constraint firstItem="mgg-lA-LiK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Xur-jB-pmZ"/>
+                <constraint firstAttribute="trailing" secondItem="hwy-G8-ZFi" secondAttribute="trailing" id="bju-oQ-IKq"/>
+                <constraint firstItem="mgg-lA-LiK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="28" id="irf-c9-4AB"/>
+                <constraint firstAttribute="trailing" secondItem="0Ae-a4-XY4" secondAttribute="trailing" id="pVs-Kq-MFn"/>
+                <constraint firstItem="0Ae-a4-XY4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rlw-bH-Ku4"/>
+                <constraint firstAttribute="trailing" secondItem="mgg-lA-LiK" secondAttribute="trailing" id="rnr-8u-jSs"/>
+                <constraint firstAttribute="bottom" secondItem="hwy-G8-ZFi" secondAttribute="bottom" id="v5x-CX-Hqu"/>
+            </constraints>
+            <size key="customSize" width="13" height="358"/>
+            <point key="canvasLocation" x="21.5" y="30"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="banner" width="358" height="160"/>
+    </resources>
+</document>
